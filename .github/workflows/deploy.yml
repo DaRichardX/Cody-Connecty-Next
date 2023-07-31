@@ -22,5 +22,5 @@ jobs:
     - run: npm i
     - run: npm run build
     - run: npm run export
-    - run: sudo rm -r /var/www/codeconnect.ca/html
+    - run: sudo rm -r /var/www/codeconnect.ca/html/*
     - run: sudo mv /home/ubuntu/actions-runner/Cody-Connect-Next/Cody-Connecty-Next/Cody-Connecty-Next/out/* /var/www/codeconnect.ca/html 
