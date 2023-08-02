@@ -39,7 +39,6 @@ const FeatureCard4 = (props) => {
           .feature-card4-root-class-name {
             width: 100%;
           }
-
           @media (max-width: 479px) {
             .feature-card4-text {
               font-style: normal;

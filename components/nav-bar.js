@@ -12,7 +12,7 @@ const NavBar = (props) => {
             <a className="nav-bar-link">
               <img
                 alt={props.image_alt}
-                src="/logoo2-300w.png"
+                src="/logoo2-400w.png"
                 className="nav-bar-image"
               />
             </a>
@@ -435,7 +435,6 @@ const NavBar = (props) => {
             display: flex;
             z-index: 1;
             position: fixed;
-            max-width: 1390px;
             align-items: center;
             flex-direction: column;
             justify-content: center;
@@ -459,7 +458,7 @@ const NavBar = (props) => {
           .nav-bar-image {
             width: 22%;
             height: auto;
-            max-width: var(--dl-size-size-xxlarge);
+            min-width: 270px;
             object-fit: cover;
             margin-bottom: 0.5%;
             text-decoration: none;
@@ -1365,6 +1364,7 @@ const NavBar = (props) => {
             background-color: #ffffff;
           }
           .nav-bar-root-class-name7 {
+            align-self: center;
             background-color: #ffffff;
           }
           .nav-bar-root-class-name8 {

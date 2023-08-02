@@ -66,15 +66,38 @@ const Home = (props) => {
             ></BlogCard>
           </div>
           <div className="home-container3">
-            <BlogCard
-              label="ONLINE"
-              title="Join us online in our zoom classes"
-              image_src="https://media.istockphoto.com/id/1237105921/vector/online-class-pupils-or-students-studying-with-computer-at-home-stay-school-learn-from-home.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=pSgrX00g09rTu6nAc35zoVB0XOABuQ0ppy0vctbJ8G0="
-              description="We offer online tutoring that will be held via Zoom. You will be able to coordinate with your tutor based on your time schedules. Free 1-on-1 classes will be held on a weekly basis. We will support students based on what they already know, and what their intrested in (games, webpages, etc..)"
-              rootClassName="rootClassName2"
-            ></BlogCard>
+            <div className="home-blog-post-card">
+              <img
+                alt="image"
+                src="https://media.istockphoto.com/id/1237105921/vector/online-class-pupils-or-students-studying-with-computer-at-home-stay-school-learn-from-home.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=pSgrX00g09rTu6nAc35zoVB0XOABuQ0ppy0vctbJ8G0="
+                className="home-image"
+              />
+              <div className="home-container4">
+                <div className="home-container5">
+                  <span className="home-text06">ONLINE</span>
+                  <span className="home-text07">
+                    Join us online in our zoom classes
+                  </span>
+                  <span className="home-text08">
+                    We offer online tutoring that will be held via Zoom. You
+                    will be able to coordinate with your tutor based on your
+                    time schedules. Free 1-on-1 classes will be held on a weekly
+                    basis. We will support students based on what they already
+                    know, and what their intrested in (games, webpages, etc..)
+                  </span>
+                </div>
+                <div className="home-container6">
+                  <div className="home-profile">
+                    <span className="home-text09">Explore More</span>
+                  </div>
+                  <svg viewBox="0 0 1024 1024" className="home-icon">
+                    <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="home-container4">
+          <div className="home-container7">
             <BlogCard
               label="VOLUNTEERING"
               title="Want to sign up as a tutor?"
@@ -85,8 +108,8 @@ const Home = (props) => {
           </div>
         </div>
         <div className="home-banner">
-          <h1 className="home-text06">Our Mission</h1>
-          <span className="home-text07">
+          <h1 className="home-text10">Our Mission</h1>
+          <span className="home-text11">
             <span>
               Our mission is to provide free, quality extracurricular education
               for children who wishes to explore their intrest in computers and
@@ -116,34 +139,34 @@ const Home = (props) => {
         </div>
         <div className="home-stats">
           <div className="home-stat">
-            <h1 className="home-text12">
+            <h1 className="home-text16">
               <span>50</span>
               <span>+</span>
             </h1>
-            <span className="home-text15">Students taught</span>
-            <span className="home-text16">
+            <span className="home-text19">Students taught</span>
+            <span className="home-text20">
               <span>and participated in our online and on-site programs</span>
               <br></br>
             </span>
           </div>
           <div className="home-stat1">
-            <h1 className="home-text19">6+</h1>
-            <span className="home-text20">In-person term completed</span>
-            <span className="home-text21">
+            <h1 className="home-text23">6+</h1>
+            <span className="home-text24">In-person term completed</span>
+            <span className="home-text25">
               Averaging 10-12 students per term in a 9 weeks introductory class
             </span>
           </div>
           <div className="home-stat2">
-            <h1 className="home-text22">160+</h1>
-            <span className="home-text23">Hours impacted</span>
-            <span className="home-text24">
+            <h1 className="home-text26">160+</h1>
+            <span className="home-text27">Hours impacted</span>
+            <span className="home-text28">
               Combined from our online and on-site programs
             </span>
           </div>
         </div>
         <div className="home-features">
-          <h1 className="home-text25">Discover more</h1>
-          <div className="home-container5">
+          <h1 className="home-text29">Discover more</h1>
+          <div className="home-container8">
             <JoinUsCards
               title="Our Mission"
               rootClassName="rootClassName"
@@ -185,7 +208,7 @@ const Home = (props) => {
             padding: 2%;
             max-width: 100%;
             align-self: center;
-            margin-top: 110px;
+            margin-top: 4%;
             align-items: center;
             flex-direction: row;
             background-size: cover;
@@ -257,7 +280,91 @@ const Home = (props) => {
             margin-right: var(--dl-space-space-twounits);
             justify-content: space-between;
           }
+          .home-blog-post-card {
+            flex: 1 1;
+            display: flex;
+            overflow: hidden;
+            max-width: var(--dl-size-size-maxwidth);
+            box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+            transition: 0.3s;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-blog-post-card:hover {
+            transform: scale(1.02);
+          }
+          .home-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+          }
           .home-container4 {
+            height: 100%;
+            display: flex;
+            padding: var(--dl-space-space-twounits);
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-container5 {
+            flex: 1;
+            width: auto;
+            display: flex;
+            align-self: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-text06 {
+            color: var(--dl-color-gray-500);
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-halfunit);
+            text-transform: uppercase;
+          }
+          .home-text07 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .home-text08 {
+            color: var(--dl-color-gray-500);
+            width: 100%;
+            height: 100%;
+            font-size: 1rem;
+            align-self: flex-start;
+            margin-top: var(--dl-space-space-twounits);
+            font-weight: 400;
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .home-container6 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: var(--dl-space-space-unit);
+            border-color: var(--dl-color-gray-900);
+            border-width: 1px;
+            flex-direction: row;
+            justify-content: space-between;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+          }
+          .home-profile {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .home-text09 {
+            font-weight: 300;
+            text-decoration: underline;
+          }
+          .home-icon {
+            width: 24px;
+            height: 24px;
+          }
+          .home-container7 {
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -275,11 +382,11 @@ const Home = (props) => {
               rgb(255, 248, 234) 100%
             );
           }
-          .home-text06 {
+          .home-text10 {
             font-size: 3rem;
             text-align: center;
           }
-          .home-text07 {
+          .home-text11 {
             font-size: 20px;
             max-width: var(--dl-size-size-maxwidth);
             font-style: normal;
@@ -318,16 +425,16 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text12 {
+          .home-text16 {
             color: rgb(255, 124, 76);
             font-size: 3rem;
           }
-          .home-text15 {
+          .home-text19 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-halfunit);
             text-align: center;
           }
-          .home-text16 {
+          .home-text20 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -338,16 +445,16 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text19 {
+          .home-text23 {
             color: rgb(255, 124, 76);
             font-size: 3rem;
           }
-          .home-text20 {
+          .home-text24 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-halfunit);
             text-align: center;
           }
-          .home-text21 {
+          .home-text25 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -358,16 +465,16 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text22 {
+          .home-text26 {
             color: rgb(255, 124, 76);
             font-size: 3rem;
           }
-          .home-text23 {
+          .home-text27 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-halfunit);
             text-align: center;
           }
-          .home-text24 {
+          .home-text28 {
             color: var(--dl-color-gray-500);
             font-size: 0.75rem;
             margin-top: var(--dl-space-space-halfunit);
@@ -380,12 +487,12 @@ const Home = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             flex-direction: column;
           }
-          .home-text25 {
+          .home-text29 {
             font-size: 3rem;
             align-self: center;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-container5 {
+          .home-container8 {
             flex: 0 0 auto;
             width: 80%;
             display: grid;
@@ -395,11 +502,15 @@ const Home = (props) => {
             grid-template-columns: 1fr 1fr;
           }
           @media (max-width: 1200px) {
-            .home-text12 {
+            .home-container5 {
+              height: 25vw;
+              margin-bottom: 5%;
+            }
+            .home-text16 {
               color: rgb(255, 124, 76);
               font-size: 3rem;
             }
-            .home-container5 {
+            .home-container8 {
               align-self: flex-end;
               margin-right: 0px;
             }
@@ -416,22 +527,25 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text07 {
+            .home-image {
+              height: 350px;
+            }
+            .home-text11 {
               max-width: 100%;
             }
-            .home-text12 {
+            .home-text16 {
               text-align: center;
             }
-            .home-text19 {
+            .home-text23 {
               text-align: center;
             }
-            .home-text22 {
+            .home-text26 {
               text-align: center;
             }
-            .home-text25 {
+            .home-text29 {
               align-self: center;
             }
-            .home-container5 {
+            .home-container8 {
               grid-template-columns: 1fr 1fr;
             }
           }
@@ -444,7 +558,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text07 {
+            .home-text11 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -453,13 +567,13 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-twounits);
               grid-template-columns: 1fr 1fr;
             }
-            .home-text15 {
+            .home-text19 {
               text-align: center;
             }
-            .home-text20 {
+            .home-text24 {
               text-align: center;
             }
-            .home-text23 {
+            .home-text27 {
               text-align: center;
             }
             .home-features {
@@ -493,7 +607,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-container5 {
+            .home-container8 {
               grid-gap: var(--dl-space-space-halfunit);
             }
           }
