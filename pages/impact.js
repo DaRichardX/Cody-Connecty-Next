@@ -9,8 +9,8 @@ const Impact = (props) => {
     <>
       <div className="impact-container">
         <Head>
-          <title>Impact - Cody Connecty</title>
-          <meta property="og:title" content="Impact - Cody Connecty" />
+          <title>Impact - Code Connect</title>
+          <meta property="og:title" content="Impact - Code Connect" />
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name2"></NavBar>
         <div className="impact-banner">

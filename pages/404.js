@@ -10,8 +10,8 @@ const Page = (props) => {
     <>
       <div className="page-container">
         <Head>
-          <title>Page - Cody Connecty</title>
-          <meta property="og:title" content="Page - Cody Connecty" />
+          <title>404 - Code Connect</title>
+          <meta property="og:title" content="404 - Code Connect" />
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name3"></NavBar>
         <div className="page-container1">

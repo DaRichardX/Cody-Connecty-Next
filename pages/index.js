@@ -16,12 +16,12 @@ const Home = (props) => {
           <title>Code Connect</title>
           <meta
             name="description"
-            content="Code Connect is a non-profit organization dedicated to provide free and quality programming educations to elementary children."
+            content="Code Connect is a non-profit organization dedicated to providing free and quality programming education to elementary children."
           />
           <meta property="og:title" content="Code Connect" />
           <meta
             property="og:description"
-            content="Code Connect is a non-profit organization dedicated to provide free and quality programming educations to elementary children."
+            content="Code Connect is a non-profit organization dedicated to providing free and quality programming education to elementary children."
           />
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name"></NavBar>

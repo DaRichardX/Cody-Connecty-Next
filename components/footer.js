@@ -8,7 +8,7 @@ const Footer = (props) => {
       <footer className={`footer-footer ${props.rootClassName} `}>
         <div className="footer-container">
           <div className="footer-logo">
-            <img src={props.image_src1} className="footer-image" />
+            <img src="/thinlogo-200h.png" className="footer-image" />
             <span className="footer-text">
               <span>Empowering students since 2022</span>
               <br></br>
@@ -96,15 +96,16 @@ const Footer = (props) => {
             flex-direction: column;
           }
           .footer-image {
-            width: 46%;
+            width: 42%;
             height: 10%;
+            min-width: 230px;
             align-self: flex-start;
-            margin-top: -3%;
             object-fit: cover;
-            margin-left: -1%;
+            margin-left: -0.5%;
           }
           .footer-text {
-            margin-top: var(--dl-space-space-oneandhalfunits);
+            margin-top: var(--dl-space-space-unit);
+            margin-bottom: -1%;
           }
           .footer-links-container {
             display: flex;

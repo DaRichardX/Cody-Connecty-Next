@@ -10,8 +10,8 @@ const ContactUs = (props) => {
     <>
       <div className="contact-us-container">
         <Head>
-          <title>Contact-us - Cody Connecty</title>
-          <meta property="og:title" content="Contact-us - Cody Connecty" />
+          <title>Contact Us - Code Connect</title>
+          <meta property="og:title" content="Contact Us - Code Connect" />
         </Head>
         <div className="contact-us-container1">
           <NavBar rootClassName="nav-bar-root-class-name9"></NavBar>

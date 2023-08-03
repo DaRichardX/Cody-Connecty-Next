@@ -6,8 +6,11 @@ const OnlinePrograms = (props) => {
     <>
       <div className="online-programs-container">
         <Head>
-          <title>Online-Programs - Cody Connecty</title>
-          <meta property="og:title" content="Online-Programs - Cody Connecty" />
+          <title>Online Volunteering - Code Connect</title>
+          <meta
+            property="og:title"
+            content="Online Volunteering - Code Connect"
+          />
         </Head>
       </div>
       <style jsx>

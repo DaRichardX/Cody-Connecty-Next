@@ -9,10 +9,10 @@ const InPersonClasses = (props) => {
     <>
       <div className="in-person-classes-container">
         <Head>
-          <title>In-Person-Classes - Cody Connecty</title>
+          <title>In-Person Classes - Code Connect</title>
           <meta
             property="og:title"
-            content="In-Person-Classes - Cody Connecty"
+            content="In-Person Classes - Code Connect"
           />
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name7"></NavBar>
@@ -69,26 +69,38 @@ const InPersonClasses = (props) => {
                   Time, Location &amp; Fees
                 </h2>
                 <span className="in-person-classes-text14">
-                  <span>
+                  <span className="in-person-classes-text15">
                     9/17/23 to 11/26/23 every Sunday from 10:30AM to 11:30 AM
                   </span>
-                  <br></br>
-                  <br></br>
-                  <span>Registeration opens Aug 14th</span>
-                  <br></br>
-                  <br></br>
-                  <br></br>
-                  <span>$20.00 for 11 sessions</span>
-                  <br></br>
-                  <br></br>
-                  <span>Hosted @ Our UBC Location</span>
-                  <br></br>
-                  <br></br>
-                  <span>Wesbrook Community Centre</span>
-                  <br></br>
-                  <span>3335 Webber Lane</span>
-                  <br></br>
-                  <span>Vancouver, British Columbia, V6S 0H3</span>
+                  <br className="in-person-classes-text16"></br>
+                  <br className="in-person-classes-text17"></br>
+                  <span className="in-person-classes-text18">
+                    Registeration opens Aug 14th
+                  </span>
+                  <br className="in-person-classes-text19"></br>
+                  <br className="in-person-classes-text20"></br>
+                  <br className="in-person-classes-text21"></br>
+                  <span className="in-person-classes-text22">
+                    $20.00 for 11 sessions
+                  </span>
+                  <br className="in-person-classes-text23"></br>
+                  <br className="in-person-classes-text24"></br>
+                  <span className="in-person-classes-text25">
+                    Hosted @ Our UBC Location
+                  </span>
+                  <br className="in-person-classes-text26"></br>
+                  <br className="in-person-classes-text27"></br>
+                  <span className="in-person-classes-text28">
+                    Wesbrook Community Centre
+                  </span>
+                  <br className="in-person-classes-text29"></br>
+                  <span className="in-person-classes-text30">
+                    3335 Webber Lane
+                  </span>
+                  <br className="in-person-classes-text31"></br>
+                  <span className="in-person-classes-text32">
+                    Vancouver, British Columbia, V6S 0H3
+                  </span>
                   <br></br>
                 </span>
               </div>
@@ -308,7 +320,7 @@ const InPersonClasses = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .in-person-classes-text02 {
-            color: var(--dl-color-gray-700);
+            color: #434343;
           }
           .in-person-classes-feature-card1 {
             width: 100%;
@@ -327,6 +339,60 @@ const InPersonClasses = (props) => {
           .in-person-classes-text14 {
             color: var(--dl-color-gray-700);
             margin-bottom: 10%;
+          }
+          .in-person-classes-text15 {
+            color: #434343;
+          }
+          .in-person-classes-text16 {
+            color: #434343;
+          }
+          .in-person-classes-text17 {
+            color: #434343;
+          }
+          .in-person-classes-text18 {
+            color: #434343;
+          }
+          .in-person-classes-text19 {
+            color: #434343;
+          }
+          .in-person-classes-text20 {
+            color: #434343;
+          }
+          .in-person-classes-text21 {
+            color: #434343;
+          }
+          .in-person-classes-text22 {
+            color: #434343;
+          }
+          .in-person-classes-text23 {
+            color: #434343;
+          }
+          .in-person-classes-text24 {
+            color: #434343;
+          }
+          .in-person-classes-text25 {
+            color: #434343;
+          }
+          .in-person-classes-text26 {
+            color: #434343;
+          }
+          .in-person-classes-text27 {
+            color: #434343;
+          }
+          .in-person-classes-text28 {
+            color: #434343;
+          }
+          .in-person-classes-text29 {
+            color: #434343;
+          }
+          .in-person-classes-text30 {
+            color: #434343;
+          }
+          .in-person-classes-text31 {
+            color: #434343;
+          }
+          .in-person-classes-text32 {
+            color: #434343;
           }
           .in-person-classes-feature-card2 {
             width: 100%;
@@ -381,7 +447,7 @@ const InPersonClasses = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .in-person-classes-text35 {
-            color: var(--dl-color-gray-700);
+            color: #434343;
           }
           .in-person-classes-feature-card4 {
             width: 100%;
@@ -403,7 +469,7 @@ const InPersonClasses = (props) => {
             margin-bottom: var(--dl-space-space-unit);
           }
           .in-person-classes-text44 {
-            color: var(--dl-color-gray-700);
+            color: #434343;
             margin-bottom: 10%;
           }
           .in-person-classes-feature-card5 {

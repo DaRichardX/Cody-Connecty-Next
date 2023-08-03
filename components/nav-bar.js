@@ -12,7 +12,7 @@ const NavBar = (props) => {
             <a className="nav-bar-link">
               <img
                 alt={props.image_alt}
-                src="/logoo2-400w.png"
+                src="/thinlogo-200h.png"
                 className="nav-bar-image"
               />
             </a>
@@ -152,7 +152,7 @@ const NavBar = (props) => {
                     data-thq="thq-dropdown"
                     className="nav-bar-dropdown05 list-item"
                   >
-                    <Link href="/zoom-classess">
+                    <Link href="/zoom-classes">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
@@ -456,9 +456,9 @@ const NavBar = (props) => {
             display: contents;
           }
           .nav-bar-image {
-            width: 22%;
+            width: 20%;
             height: auto;
-            min-width: 270px;
+            min-width: 240px;
             object-fit: cover;
             margin-bottom: 0.5%;
             text-decoration: none;
@@ -1356,7 +1356,9 @@ const NavBar = (props) => {
           .nav-bar-root-class-name3 {
             background-color: #ffffff;
           }
-
+          .nav-bar-root-class-name4 {
+            background-color: transparent;
+          }
           .nav-bar-root-class-name5 {
             background-color: #ffffff;
           }

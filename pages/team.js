@@ -10,8 +10,8 @@ const Team = (props) => {
     <>
       <div className="team-container">
         <Head>
-          <title>Team - Cody Connecty</title>
-          <meta property="og:title" content="Team - Cody Connecty" />
+          <title>Team - Code Connect</title>
+          <meta property="og:title" content="Team - Code Connect" />
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name5"></NavBar>
         <h1 className="team-heading">Our Team</h1>

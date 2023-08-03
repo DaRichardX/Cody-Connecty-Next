@@ -10,8 +10,8 @@ const Workshop = (props) => {
     <>
       <div className="workshop-container">
         <Head>
-          <title>Workshop - Cody Connecty</title>
-          <meta property="og:title" content="Workshop - Cody Connecty" />
+          <title>Workshops - Code Connect</title>
+          <meta property="og:title" content="Workshops - Code Connect" />
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name8"></NavBar>
         <div className="workshop-container1">

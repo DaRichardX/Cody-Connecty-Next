@@ -9,8 +9,8 @@ const Mission = (props) => {
     <>
       <div className="mission-container">
         <Head>
-          <title>Mission - Cody Connecty</title>
-          <meta property="og:title" content="Mission - Cody Connecty" />
+          <title>Mission - Code Connect</title>
+          <meta property="og:title" content="Mission - Code Connect" />
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name1"></NavBar>
         <h1 className="mission-text">

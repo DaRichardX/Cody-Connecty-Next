@@ -6,10 +6,10 @@ const InPersonPrograms = (props) => {
     <>
       <div className="in-person-programs-container">
         <Head>
-          <title>In-Person-Programs - Cody Connecty</title>
+          <title>In-person Volunteering - Code Connect</title>
           <meta
             property="og:title"
-            content="In-Person-Programs - Cody Connecty"
+            content="In-person Volunteering - Code Connect"
           />
         </Head>
       </div>
