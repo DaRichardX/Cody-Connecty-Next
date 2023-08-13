@@ -13,19 +13,24 @@ const Mission = (props) => {
           <meta property="og:title" content="Mission - Code Connect" />
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name1"></NavBar>
-        <h1 className="mission-text">
-          <span>Our Mission</span>
-          <br></br>
-        </h1>
         <div className="mission-hero">
           <div className="mission-container1 animate__fadeInLeft animate__animated">
-            <h1 className="mission-text03">1.</h1>
-            <h2 className="mission-text04">Extracurricular Intrest</h2>
-            <span className="mission-text05">
+            <h1 className="mission-text">
+              <br></br>
+              <span>Our Mission</span>
+            </h1>
+            <h2 className="mission-text03">Empowerment</h2>
+            <span className="mission-text04">
               <span>
-                To provide free extracurricular tutoring through tutoring STEM
-                to elementary/highschool children who are exploring different
-                fields;
+                Code Connect is dedicated to empowering children in adverse
+                circumstances with coding skills and fostering a passion for
+                technology. Our mission is to bridge the digital divide and
+                provide access to quality coding education that equips young
+                minds with the tools they need to succeed in a rapidly changing
+                world. By nurturing curiosity, creativity, and critical
+                thinking, we aspire to unlock endless opportunities for these
+                young learners, which enable them to shape their futures and
+                contribute positively to society.
               </span>
               <br></br>
             </span>
@@ -33,15 +38,21 @@ const Mission = (props) => {
         </div>
         <div className="mission-hero1">
           <div className="mission-container2 animate__fadeInRight animate__animated">
-            <h1 className="mission-text08">2.</h1>
-            <h2 className="mission-text09">Volunteer Opportunities</h2>
-            <span className="mission-text10">
+            <h1 className="mission-text07">Our Vision</h1>
+            <h2 className="mission-text08">
+              Confidence, skills, and knowledge
+            </h2>
+            <span className="mission-text09">
               <br></br>
               <br></br>
               <span>
-                To provide teens a meaningful and rewarding volunteer experience
-                with an opportunity to act as a role model to children and
-                develop leadership and communication skills
+                Our vision is a world where everyone, regardless of their innate
+                circumstances, has the opportunity to learn and thrive through
+                coding education. Code Connect envisions a future where children
+                from underserved communities are equipped with the confidence,
+                skills, and knowledge to navigate the digital landscape, pursue
+                rewarding careers in technology, and become catalysts for change
+                in their communities.
               </span>
               <span>
                 <span
@@ -57,19 +68,6 @@ const Mission = (props) => {
                   }}
                 />
               </span>
-            </span>
-          </div>
-        </div>
-        <div className="mission-hero2">
-          <div className="mission-container3 animate__fadeInLeft animate__animated">
-            <h1 className="mission-text16">3.</h1>
-            <h2 className="mission-text17">Equal Opportunities</h2>
-            <span className="mission-text18">
-              <span>
-                To provide equal opportunities for learning regardless of
-                financial, geological, or socioeconomic status.
-              </span>
-              <br></br>
             </span>
           </div>
         </div>
@@ -86,14 +84,12 @@ const Mission = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .mission-text {
-            margin-top: 10%;
-          }
           .mission-hero {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
             max-width: var(--dl-size-size-maxwidth);
+            margin-top: 6%;
             min-height: auto;
             transition: 0.3s;
             flex-direction: column;
@@ -109,16 +105,16 @@ const Mission = (props) => {
             padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .mission-text03 {
+          .mission-text {
             font-size: 3rem;
             max-width: 450px;
           }
-          .mission-text04 {
+          .mission-text03 {
             margin-top: var(--dl-space-space-unit);
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .mission-text05 {
+          .mission-text04 {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -140,52 +136,18 @@ const Mission = (props) => {
             margin-left: 0px;
             flex-direction: column;
           }
-          .mission-text08 {
+          .mission-text07 {
             font-size: 3rem;
+          }
+          .mission-text08 {
+            margin-top: var(--dl-space-space-unit);
+            font-weight: 600;
+            margin-bottom: var(--dl-space-space-unit);
           }
           .mission-text09 {
-            margin-top: var(--dl-space-space-unit);
-            font-weight: 600;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .mission-text10 {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-threeunits);
-          }
-          .mission-hero2 {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-threeunits);
-            max-width: var(--dl-size-size-maxwidth);
-            align-self: center;
-            min-height: auto;
-            transition: 0.3s;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: center;
-          }
-
-          .mission-container3 {
-            display: flex;
-            margin-left: 0px;
-            margin-right: var(--dl-space-space-threeunits);
-            margin-bottom: 0px;
-            padding-right: var(--dl-space-space-threeunits);
-            flex-direction: column;
-          }
-          .mission-text16 {
-            font-size: 3rem;
-            max-width: 450px;
-          }
-          .mission-text17 {
-            margin-top: var(--dl-space-space-unit);
-            font-weight: 600;
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .mission-text18 {
-            margin-top: var(--dl-space-space-twounits);
-            margin-bottom: var(--dl-space-space-twounits);
           }
           @media (max-width: 1200px) {
             .mission-hero {
@@ -193,31 +155,20 @@ const Mission = (props) => {
               padding-top: 0px;
               padding-bottom: 0px;
             }
-            .mission-text03 {
+            .mission-text {
               font-size: 3rem;
             }
-            .mission-text04 {
+            .mission-text03 {
               font-weight: 600;
             }
             .mission-hero1 {
               padding-top: 0px;
               padding-bottom: 0px;
             }
+            .mission-text07 {
+              font-size: 3rem;
+            }
             .mission-text08 {
-              font-size: 3rem;
-            }
-            .mission-text09 {
-              font-weight: 600;
-            }
-            .mission-hero2 {
-              height: auto;
-              padding-top: 0px;
-              padding-bottom: 0px;
-            }
-            .mission-text16 {
-              font-size: 3rem;
-            }
-            .mission-text17 {
               font-weight: 600;
             }
           }
@@ -231,13 +182,13 @@ const Mission = (props) => {
               margin-bottom: var(--dl-space-space-twounits);
               padding-right: 0px;
             }
+            .mission-text {
+              text-align: center;
+            }
             .mission-text03 {
               text-align: center;
             }
             .mission-text04 {
-              text-align: center;
-            }
-            .mission-text05 {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
@@ -252,35 +203,15 @@ const Mission = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-twounits);
             }
+            .mission-text07 {
+              text-align: center;
+            }
             .mission-text08 {
               text-align: center;
             }
             .mission-text09 {
               text-align: center;
-            }
-            .mission-text10 {
-              text-align: center;
               padding-left: var(--dl-space-space-fourunits);
-            }
-            .mission-hero2 {
-              flex-direction: column;
-            }
-            .mission-container3 {
-              align-items: center;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-twounits);
-              padding-right: 0px;
-            }
-            .mission-text16 {
-              text-align: center;
-            }
-            .mission-text17 {
-              text-align: center;
-            }
-            .mission-text18 {
-              text-align: center;
-              padding-left: var(--dl-space-space-threeunits);
-              padding-right: var(--dl-space-space-threeunits);
             }
           }
           @media (max-width: 767px) {
@@ -288,21 +219,16 @@ const Mission = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .mission-text05 {
+            .mission-text {
+              font-size: 3rem;
+            }
+            .mission-text04 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
             .mission-hero1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
-            }
-            .mission-hero2 {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
-            .mission-text18 {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 479px) {
@@ -324,18 +250,9 @@ const Mission = (props) => {
             .mission-container2 {
               margin-bottom: var(--dl-space-space-unit);
             }
-            .mission-text10 {
+            .mission-text09 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
-            }
-            .mission-hero2 {
-              padding-top: var(--dl-space-space-twounits);
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-twounits);
-            }
-            .mission-container3 {
-              margin-bottom: var(--dl-space-space-unit);
             }
           }
         `}

@@ -4,7 +4,6 @@ import Head from 'next/head'
 
 import NavBar from '../components/nav-bar'
 import BlogCard from '../components/blog-card'
-import JoinUsCards from '../components/join-us-cards'
 import Footer from '../components/footer'
 
 const Home = (props) => {
@@ -25,20 +24,44 @@ const Home = (props) => {
           />
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name"></NavBar>
-        <div className="home-introduction">
+        <div className="home-hero">
+          <div className="home-container1">
+            <h1 className="home-text">
+              <br className="home-text01"></br>
+              <span className="home-text02">
+                At Code Connect, The Future is Your&apos;s to Code.
+              </span>
+              <br></br>
+              <br></br>
+              <span>One Line at a Time.</span>
+              <br></br>
+            </h1>
+            <span className="home-text07">
+              Embark with us on this transformative journey of bridging the
+              digital divide.
+            </span>
+            <div className="home-btn-group">
+              <button className="home-button button">Get Started</button>
+              <button className="home-button1 button">Learn More</button>
+            </div>
+          </div>
           <div className="home-div">
             <lottie-player
               src="https://lottie.host/ce9ca870-a333-44f8-9a72-31749acd2d75/3Jo1iPrhrr.json"
-              loop
-              hover
-              speed="1.2"
               autoplay
+              speed="1"
               background="transparent"
+              loop
             ></lottie-player>
           </div>
-          <div className="home-container1">
-            <h1 className="home-text">Who are we?</h1>
-            <span className="home-text01">
+        </div>
+        <div className="home-separator"></div>
+        <div className="home-banner">
+          <div className="home-banner1">
+            <div className="home-container2">
+              <h1 className="home-text08">Who we are?</h1>
+            </div>
+            <span className="home-text09">
               <span>
                 Code Connect is a non-profit organization dedicated to
                 accompanying students on an adventurous jouney of learning
@@ -49,13 +72,45 @@ const Home = (props) => {
                 critically.
               </span>
               <br></br>
-              <br></br>
-              <br></br>
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span>
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
             </span>
+            <Link href="/mission">
+              <a className="home-link button">Read More</a>
+            </Link>
+          </div>
+        </div>
+        <div className="home-stats">
+          <div className="home-stat">
+            <h1 className="home-text14">
+              <span>100</span>
+              <span>+</span>
+            </h1>
+            <span className="home-text17">Students taught</span>
+          </div>
+          <div className="home-stat1">
+            <h1 className="home-text18">6+</h1>
+            <span className="home-text19">In-person term completed</span>
+          </div>
+          <div className="home-stat2">
+            <h1 className="home-text20">230+</h1>
+            <span className="home-text21">Hours impacted</span>
           </div>
         </div>
         <div className="home-blog">
-          <div className="home-container2">
+          <div className="home-container3">
             <BlogCard
               label="ONSITE"
               title="Discover our in-person programs"
@@ -65,20 +120,20 @@ const Home = (props) => {
               rootClassName="rootClassName3"
             ></BlogCard>
           </div>
-          <div className="home-container3">
+          <div className="home-container4">
             <div className="home-blog-post-card">
               <img
                 alt="image"
                 src="https://media.istockphoto.com/id/1237105921/vector/online-class-pupils-or-students-studying-with-computer-at-home-stay-school-learn-from-home.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=pSgrX00g09rTu6nAc35zoVB0XOABuQ0ppy0vctbJ8G0="
                 className="home-image"
               />
-              <div className="home-container4">
-                <div className="home-container5">
-                  <span className="home-text06">ONLINE</span>
-                  <span className="home-text07">
+              <div className="home-container5">
+                <div className="home-container6">
+                  <span className="home-text22">ONLINE</span>
+                  <span className="home-text23">
                     Join us online in our zoom classes
                   </span>
-                  <span className="home-text08">
+                  <span className="home-text24">
                     We offer online tutoring that will be held via Zoom. You
                     will be able to coordinate with your tutor based on your
                     time schedules. Free 1-on-1 classes will be held on a weekly
@@ -86,9 +141,9 @@ const Home = (props) => {
                     know, and what their intrested in (games, webpages, etc..)
                   </span>
                 </div>
-                <div className="home-container6">
+                <div className="home-container7">
                   <div className="home-profile">
-                    <span className="home-text09">Explore More</span>
+                    <span className="home-text25">Explore More</span>
                   </div>
                   <svg viewBox="0 0 1024 1024" className="home-icon">
                     <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
@@ -97,7 +152,7 @@ const Home = (props) => {
               </div>
             </div>
           </div>
-          <div className="home-container7">
+          <div className="home-container8">
             <BlogCard
               label="VOLUNTEERING"
               title="Want to sign up as a tutor?"
@@ -107,15 +162,19 @@ const Home = (props) => {
             ></BlogCard>
           </div>
         </div>
-        <div className="home-banner">
-          <h1 className="home-text10">Our Mission</h1>
-          <span className="home-text11">
+        <div className="home-banner2">
+          <h1 className="home-text26">Our Mission</h1>
+          <span className="home-text27">
             <span>
-              Our mission is to provide free, quality extracurricular education
-              for children who wishes to explore their intrest in computers and
-              programming. We also wishes to provide students a meaningful and
-              memorizable chance to give back to the community, while developing
-              leadership and communication skills.
+              “Code Connect is dedicated to empowering children in adverse
+              circumstances with coding skills and fostering a passion for
+              technology. Our mission is to bridge the digital divide and
+              provide access to quality coding education that equips young minds
+              with the tools they need to succeed in a rapidly changing world.
+              By nurturing curiosity, creativity, and critical thinking, we
+              aspire to unlock endless opportunities for these young learners,
+              which enable them to shape their futures and contribute positively
+              to society.”
             </span>
             <br></br>
             <span>
@@ -134,56 +193,8 @@ const Home = (props) => {
             </span>
           </span>
           <Link href="/mission">
-            <a className="home-link button">Read More</a>
+            <a className="home-link1 button">Read More</a>
           </Link>
-        </div>
-        <div className="home-stats">
-          <div className="home-stat">
-            <h1 className="home-text16">
-              <span>50</span>
-              <span>+</span>
-            </h1>
-            <span className="home-text19">Students taught</span>
-            <span className="home-text20">
-              <span>and participated in our online and on-site programs</span>
-              <br></br>
-            </span>
-          </div>
-          <div className="home-stat1">
-            <h1 className="home-text23">6+</h1>
-            <span className="home-text24">In-person term completed</span>
-            <span className="home-text25">
-              Averaging 10-12 students per term in a 9 weeks introductory class
-            </span>
-          </div>
-          <div className="home-stat2">
-            <h1 className="home-text26">160+</h1>
-            <span className="home-text27">Hours impacted</span>
-            <span className="home-text28">
-              Combined from our online and on-site programs
-            </span>
-          </div>
-        </div>
-        <div className="home-features">
-          <h1 className="home-text29">Discover more</h1>
-          <div className="home-container8">
-            <JoinUsCards
-              title="Our Mission"
-              rootClassName="rootClassName"
-            ></JoinUsCards>
-            <JoinUsCards
-              title="Presentations"
-              rootClassName="rootClassName1"
-            ></JoinUsCards>
-            <JoinUsCards
-              title="Donate"
-              rootClassName="rootClassName5"
-            ></JoinUsCards>
-            <JoinUsCards
-              title="Volunteering"
-              rootClassName="rootClassName4"
-            ></JoinUsCards>
-          </div>
         </div>
         <Footer></Footer>
       </div>
@@ -199,196 +210,106 @@ const Home = (props) => {
             justify-content: flex-start;
             background-color: #ffffff;
           }
-          .home-introduction {
-            gap: 5%;
-            flex: 1;
+          .home-hero {
             width: 100%;
-            height: 80%;
             display: flex;
-            padding: 2%;
-            max-width: 100%;
-            align-self: center;
+            padding: var(--dl-space-space-threeunits);
+            max-width: var(--dl-size-size-maxwidth);
+            margin-top: 6%;
+            min-height: 80vh;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .home-container1 {
+            display: flex;
+            margin-right: var(--dl-space-space-threeunits);
+            padding-right: var(--dl-space-space-threeunits);
+            flex-direction: column;
+          }
+          .home-text {
+            width: 616px;
+            font-size: 3rem;
+            max-width: 450px;
+          }
+          .home-text07 {
+            margin-top: var(--dl-space-space-twounits);
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .home-btn-group {
+            width: 100%;
+            display: flex;
             margin-top: 4%;
             align-items: center;
             flex-direction: row;
-            background-size: cover;
-            justify-content: center;
-            background-image: linear-gradient(
-                90deg,
-                rgb(241, 242, 181) 0%,
-                rgba(255, 248, 234, 0.4) 100%
-              ),
-              url('/website%20assets%20(1');
-            background-repeat: repeat, round;
-            background-position: top left;
+          }
+          .home-button {
+            transition: 0.3s;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-unit);
+          }
+          .home-button:hover {
+            color: var(--dl-color-gray-white);
+            background-color: var(--dl-color-gray-black);
+          }
+          .home-button1 {
+            transition: 0.3s;
+            margin-left: var(--dl-space-space-unit);
+            padding-top: var(--dl-space-space-unit);
+            border-color: transparent;
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-unit);
+          }
+          .home-button1:hover {
+            border-color: var(--dl-color-gray-black);
           }
           .home-div {
-            width: 550px;
-            height: 550px;
-            align-self: center;
-            padding-bottom: 7%;
+            width: 100%;
+            height: 80vh;
           }
-          .home-container1 {
-            gap: var(--dl-space-space-halfunit);
-            flex: 1;
-            width: 50%;
-            height: 100%;
-            display: flex;
-            align-self: center;
-            align-items: center;
-            padding-left: 4%;
-            padding-right: 4%;
-            flex-direction: column;
-            padding-bottom: 4%;
-            justify-content: center;
-          }
-          .home-text {
-            color: rgb(0, 0, 0);
-            align-self: center;
-            margin-top: 2%;
-          }
-          .home-text01 {
-            color: rgba(0, 0, 0, 0.8);
+          .home-separator {
             width: 80%;
-            font-size: 20px;
-            align-self: center;
-            font-style: normal;
-            margin-top: 2%;
-            text-align: center;
-            font-weight: 600;
-            line-height: 1.2;
-          }
-          .home-blog {
-            width: 100%;
-            height: 100%;
-            display: flex;
-            padding: 4%;
-            max-width: var(--dl-size-size-maxwidth);
-            align-items: flex-start;
-            flex-direction: row;
-            justify-content: center;
-          }
-          .home-container2 {
-            display: flex;
-            align-items: center;
-            margin-right: var(--dl-space-space-twounits);
-            justify-content: space-between;
-          }
-          .home-container3 {
-            display: flex;
-            align-items: center;
-            margin-right: var(--dl-space-space-twounits);
-            justify-content: space-between;
-          }
-          .home-blog-post-card {
-            flex: 1 1;
-            display: flex;
-            overflow: hidden;
-            max-width: var(--dl-size-size-maxwidth);
-            box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
-            transition: 0.3s;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-blog-post-card:hover {
-            transform: scale(1.02);
-          }
-          .home-image {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-          }
-          .home-container4 {
-            height: 100%;
-            display: flex;
-            padding: var(--dl-space-space-twounits);
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-container5 {
-            flex: 1;
-            width: auto;
-            display: flex;
-            align-self: flex-start;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .home-text06 {
-            color: var(--dl-color-gray-500);
-            font-weight: 700;
-            margin-bottom: var(--dl-space-space-halfunit);
-            text-transform: uppercase;
-          }
-          .home-text07 {
-            font-size: 1.5rem;
-            font-weight: 300;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .home-text08 {
-            color: var(--dl-color-gray-500);
-            width: 100%;
-            height: 100%;
-            font-size: 1rem;
-            align-self: flex-start;
-            margin-top: var(--dl-space-space-twounits);
-            font-weight: 400;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .home-container6 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-top: var(--dl-space-space-unit);
-            border-color: var(--dl-color-gray-900);
-            border-width: 1px;
-            flex-direction: row;
-            justify-content: space-between;
-            border-left-width: 0px;
-            border-right-width: 0px;
-            border-bottom-width: 0px;
-          }
-          .home-profile {
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .home-text09 {
-            font-weight: 300;
-            text-decoration: underline;
-          }
-          .home-icon {
-            width: 24px;
-            height: 24px;
-          }
-          .home-container7 {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
+            height: 2px;
+            margin-top: 1%;
+            margin-bottom: 1%;
+            background-color: var(--dl-color-gray-500);
           }
           .home-banner {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
             align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .home-banner1 {
+            width: 100%;
+            display: flex;
+            padding: var(--dl-space-space-threeunits);
+            align-items: center;
             flex-direction: column;
             justify-content: space-between;
-            background-image: linear-gradient(
-              90deg,
-              rgb(194, 229, 156) 0%,
-              rgb(255, 248, 234) 100%
-            );
           }
-          .home-text10 {
+          .home-container2 {
+            flex: 0 0 auto;
+            width: auto;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .home-text08 {
+            color: #000000;
             font-size: 3rem;
             text-align: center;
           }
-          .home-text11 {
+          .home-text09 {
+            color: #000000;
             font-size: 20px;
-            max-width: var(--dl-size-size-maxwidth);
+            max-width: 800px;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             text-align: center;
@@ -425,18 +346,12 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text16 {
+          .home-text14 {
             color: rgb(255, 124, 76);
             font-size: 3rem;
           }
-          .home-text19 {
+          .home-text17 {
             font-size: 1.15rem;
-            margin-top: var(--dl-space-space-halfunit);
-            text-align: center;
-          }
-          .home-text20 {
-            color: var(--dl-color-gray-500);
-            font-size: 0.75rem;
             margin-top: var(--dl-space-space-halfunit);
             text-align: center;
           }
@@ -445,18 +360,12 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text23 {
+          .home-text18 {
             color: rgb(255, 124, 76);
             font-size: 3rem;
           }
-          .home-text24 {
+          .home-text19 {
             font-size: 1.15rem;
-            margin-top: var(--dl-space-space-halfunit);
-            text-align: center;
-          }
-          .home-text25 {
-            color: var(--dl-color-gray-500);
-            font-size: 0.75rem;
             margin-top: var(--dl-space-space-halfunit);
             text-align: center;
           }
@@ -465,100 +374,268 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text26 {
+          .home-text20 {
             color: rgb(255, 124, 76);
             font-size: 3rem;
           }
-          .home-text27 {
+          .home-text21 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-halfunit);
             text-align: center;
           }
-          .home-text28 {
-            color: var(--dl-color-gray-500);
-            font-size: 0.75rem;
-            margin-top: var(--dl-space-space-halfunit);
-            text-align: center;
+          .home-blog {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            padding: 4%;
+            max-width: var(--dl-size-size-maxwidth);
+            align-items: flex-start;
+            flex-direction: row;
+            justify-content: center;
           }
-          .home-features {
+          .home-container3 {
+            display: flex;
+            align-items: center;
+            margin-right: var(--dl-space-space-twounits);
+            justify-content: space-between;
+          }
+          .home-container4 {
+            display: flex;
+            align-items: center;
+            margin-right: var(--dl-space-space-twounits);
+            justify-content: space-between;
+          }
+          .home-blog-post-card {
+            flex: 1 1;
+            display: flex;
+            overflow: hidden;
+            max-width: var(--dl-size-size-maxwidth);
+            box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+            transition: 0.3s;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .home-blog-post-card:hover {
+            transform: scale(1.02);
+          }
+          .home-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+          }
+          .home-container5 {
+            height: 100%;
+            display: flex;
+            padding: var(--dl-space-space-twounits);
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-container6 {
+            flex: 1;
+            width: auto;
+            display: flex;
+            align-self: flex-start;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .home-text22 {
+            color: var(--dl-color-gray-500);
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-halfunit);
+            text-transform: uppercase;
+          }
+          .home-text23 {
+            font-size: 1.5rem;
+            font-weight: 300;
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .home-text24 {
+            color: var(--dl-color-gray-500);
+            width: 100%;
+            height: 100%;
+            font-size: 1rem;
+            align-self: flex-start;
+            margin-top: var(--dl-space-space-twounits);
+            font-weight: 400;
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .home-container7 {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: var(--dl-space-space-unit);
+            border-color: var(--dl-color-gray-900);
+            border-width: 1px;
+            flex-direction: row;
+            justify-content: space-between;
+            border-left-width: 0px;
+            border-right-width: 0px;
+            border-bottom-width: 0px;
+          }
+          .home-profile {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .home-text25 {
+            font-weight: 300;
+            text-decoration: underline;
+          }
+          .home-icon {
+            width: 24px;
+            height: 24px;
+          }
+          .home-container8 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+          }
+          .home-banner2 {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
-            max-width: var(--dl-size-size-maxwidth);
-            flex-direction: column;
-          }
-          .home-text29 {
-            font-size: 3rem;
-            align-self: center;
-            margin-bottom: var(--dl-space-space-threeunits);
-          }
-          .home-container8 {
-            flex: 0 0 auto;
-            width: 80%;
-            display: grid;
-            grid-gap: var(--dl-space-space-twounits);
-            align-self: flex-end;
             align-items: center;
-            grid-template-columns: 1fr 1fr;
+            flex-direction: column;
+            justify-content: space-between;
+            background-image: linear-gradient(
+              90deg,
+              rgb(194, 229, 156) 0%,
+              rgb(255, 248, 234) 100%
+            );
+          }
+          .home-text26 {
+            font-size: 3rem;
+            text-align: center;
+          }
+          .home-text27 {
+            font-size: 20px;
+            max-width: var(--dl-size-size-maxwidth);
+            font-style: normal;
+            margin-top: var(--dl-space-space-twounits);
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .home-link1 {
+            color: #ffffff;
+            transition: 0.3s;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+            background-color: #000000;
+          }
+          .home-link1:hover {
+            transform: scale(1.02);
           }
           @media (max-width: 1200px) {
-            .home-container5 {
-              height: 25vw;
-              margin-bottom: 5%;
+            .home-text14 {
+              color: rgb(255, 124, 76);
             }
-            .home-text16 {
+            .home-text20 {
               color: rgb(255, 124, 76);
               font-size: 3rem;
             }
-            .home-container8 {
-              align-self: flex-end;
-              margin-right: 0px;
+            .home-container6 {
+              height: 25vw;
+              margin-bottom: 5%;
+            }
+            .home-banner2 {
+              padding-bottom: 48px;
+            }
+            .home-text27 {
+              font-size: 20px;
+            }
+            .home-link1 {
+              color: rgb(255, 255, 255);
+              text-decoration: none;
+              background-color: rgb(0, 0, 0);
             }
           }
           @media (max-width: 991px) {
+            .home-hero {
+              flex-direction: column;
+            }
+            .home-container1 {
+              align-items: center;
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-twounits);
+              padding-right: 0px;
+            }
+            .home-text {
+              font-size: 3rem;
+              text-align: center;
+            }
+            .home-text01 {
+              text-align: center;
+            }
+            .home-text02 {
+              text-align: center;
+            }
+            .home-text07 {
+              text-align: center;
+              padding-left: var(--dl-space-space-threeunits);
+              padding-right: var(--dl-space-space-threeunits);
+            }
+            .home-text09 {
+              max-width: 100%;
+            }
+            .home-text14 {
+              text-align: center;
+            }
+            .home-text18 {
+              text-align: center;
+            }
+            .home-text20 {
+              text-align: center;
+            }
             .home-blog {
               flex-direction: column;
             }
-            .home-container2 {
+            .home-container3 {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-container3 {
+            .home-container4 {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
             .home-image {
               height: 350px;
             }
-            .home-text11 {
+            .home-text27 {
               max-width: 100%;
-            }
-            .home-text16 {
-              text-align: center;
-            }
-            .home-text23 {
-              text-align: center;
-            }
-            .home-text26 {
-              text-align: center;
-            }
-            .home-text29 {
-              align-self: center;
-            }
-            .home-container8 {
-              grid-template-columns: 1fr 1fr;
             }
           }
           @media (max-width: 767px) {
-            .home-blog {
+            .home-hero {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+            }
+            .home-text07 {
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
             }
             .home-banner {
+              width: 100%;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text11 {
+            .home-banner1 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+            }
+            .home-text09 {
+              color: rgb(0, 0, 0);
+              font-size: 20px;
+              align-self: stretch;
+              font-style: normal;
+              font-weight: 500;
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -567,32 +644,75 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-twounits);
               grid-template-columns: 1fr 1fr;
             }
+            .home-text17 {
+              text-align: center;
+            }
             .home-text19 {
               text-align: center;
             }
-            .home-text24 {
+            .home-text21 {
               text-align: center;
             }
-            .home-text27 {
-              text-align: center;
-            }
-            .home-features {
+            .home-blog {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
+            .home-banner2 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+            }
+            .home-text27 {
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+            }
           }
           @media (max-width: 479px) {
-            .home-blog {
+            .home-hero {
+              margin-top: 24%;
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-container1 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-text {
+              font-size: 3rem;
+              margin-top: 4%;
+            }
+            .home-btn-group {
+              margin-top: 0%;
+              flex-direction: column;
+            }
+            .home-button1 {
+              margin-top: var(--dl-space-space-unit);
+              margin-left: 0px;
+            }
+            .home-div {
+              height: 84vh;
+              margin-top: -50%;
             }
             .home-banner {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-banner1 {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-text09 {
+              color: rgb(0, 0, 0);
+              font-size: 20px;
+              min-width: var(--dl-size-size-xlarge);
+              align-self: stretch;
+              font-style: normal;
+              text-align: center;
+              font-weight: 500;
             }
             .home-stats {
               padding-top: var(--dl-space-space-twounits);
@@ -601,14 +721,17 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
               grid-template-columns: 1fr;
             }
-            .home-features {
+            .home-blog {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-container8 {
-              grid-gap: var(--dl-space-space-halfunit);
+            .home-banner2 {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
             }
           }
         `}

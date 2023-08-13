@@ -35,9 +35,15 @@ const ContactUs = (props) => {
                   rootClassName="rootClassName3"
                 ></FeatureCard3>
                 <FeatureCard3
+                  title="Eric Zhou"
+                  action="zheyuan@codeconnect.ca"
+                  description="Vice-President of Virtual Operations"
+                  rootClassName="rootClassName1"
+                ></FeatureCard3>
+                <FeatureCard3
                   title="Claire Hua"
                   action="claire@codeconnect.ca"
-                  description="Vice-President"
+                  description="Vice-President of Wesbrook Operations"
                   rootClassName="rootClassName5"
                 ></FeatureCard3>
               </div>
