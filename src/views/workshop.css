@@ -1,0 +1,71 @@
+.workshop-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.workshop-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 8%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.workshop-blog {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  margin-top: 2%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.workshop-container2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.workshop-container3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.workshop-link {
+  width: 40%;
+  height: 10%;
+  margin-top: 8%;
+  text-align: center;
+  transition: 0.3s;
+  padding-top: 2%;
+  margin-bottom: 8%;
+  padding-bottom: 2%;
+  text-decoration: none;
+}
+.workshop-link:hover {
+  background-color: #c9c9c9;
+}
+@media(max-width: 767px) {
+  .workshop-blog {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .workshop-blog {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+}
