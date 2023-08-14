@@ -25,18 +25,17 @@ const Home = (props) => {
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name"></NavBar>
         <div className="home-hero">
-          <div className="home-container1">
+          <div className="home-container1 animate__fadeInDown animate__animated">
             <h1 className="home-text">
-              <br className="home-text01"></br>
-              <span className="home-text02">
+              <span className="home-text01">
                 At Code Connect, The Future is Your&apos;s to Code.
               </span>
-              <br></br>
-              <br></br>
-              <span>One Line at a Time.</span>
+              <br className="home-text02"></br>
+              <br className="home-text03"></br>
+              <span className="home-text04">One Line at a Time.</span>
               <br></br>
             </h1>
-            <span className="home-text07">
+            <span className="home-text06">
               Embark with us on this transformative journey of bridging the
               digital divide.
             </span>
@@ -48,29 +47,27 @@ const Home = (props) => {
           <div className="home-div">
             <lottie-player
               src="https://lottie.host/ce9ca870-a333-44f8-9a72-31749acd2d75/3Jo1iPrhrr.json"
-              autoplay
-              speed="1"
-              background="transparent"
               loop
+              speed="1"
+              autoplay
+              background="transparent"
             ></lottie-player>
           </div>
         </div>
-        <div className="home-separator"></div>
         <div className="home-banner">
           <div className="home-banner1">
-            <div className="home-container2">
-              <h1 className="home-text08">Who we are?</h1>
-            </div>
-            <span className="home-text09">
+            <h1 className="home-text07">About us</h1>
+            <div className="home-container2"></div>
+            <span className="home-text08">
               <span>
                 Code Connect is a non-profit organization dedicated to
                 accompanying students on an adventurous jouney of learning
                 programming and developing key critical thinking skills. We
                 provide extra-curricular activities to students who other wise
                 cannot participate in. We aim to assist them in a journey of
-                self discovery through code and to ignite a passion for thinking
-                critically.
+                self discovery through code 
               </span>
+              <span>and to ignite a passion for thinking critically.</span>
               <br></br>
               <span>
                 <span
@@ -109,62 +106,9 @@ const Home = (props) => {
             <span className="home-text21">Hours impacted</span>
           </div>
         </div>
-        <div className="home-blog">
-          <div className="home-container3">
-            <BlogCard
-              label="ONSITE"
-              title="Discover our in-person programs"
-              author="Explore more"
-              image_src="/img_4492_1-400h.jpeg"
-              description="We offer group classes for both beginner and intermediate programmers. Classes will be held at the Wesbrook Community Center. All on-site classes will be taught in Python and be hosted on Sunday.       "
-              rootClassName="rootClassName3"
-            ></BlogCard>
-          </div>
-          <div className="home-container4">
-            <div className="home-blog-post-card">
-              <img
-                alt="image"
-                src="https://media.istockphoto.com/id/1237105921/vector/online-class-pupils-or-students-studying-with-computer-at-home-stay-school-learn-from-home.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=pSgrX00g09rTu6nAc35zoVB0XOABuQ0ppy0vctbJ8G0="
-                className="home-image"
-              />
-              <div className="home-container5">
-                <div className="home-container6">
-                  <span className="home-text22">ONLINE</span>
-                  <span className="home-text23">
-                    Join us online in our zoom classes
-                  </span>
-                  <span className="home-text24">
-                    We offer online tutoring that will be held via Zoom. You
-                    will be able to coordinate with your tutor based on your
-                    time schedules. Free 1-on-1 classes will be held on a weekly
-                    basis. We will support students based on what they already
-                    know, and what their intrested in (games, webpages, etc..)
-                  </span>
-                </div>
-                <div className="home-container7">
-                  <div className="home-profile">
-                    <span className="home-text25">Explore More</span>
-                  </div>
-                  <svg viewBox="0 0 1024 1024" className="home-icon">
-                    <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="home-container8">
-            <BlogCard
-              label="VOLUNTEERING"
-              title="Want to sign up as a tutor?"
-              image_src="https://images.pexels.com/photos/3127880/pexels-photo-3127880.jpeg?cs=srgb&amp;dl=pexels-linda-ellershein-3127880.jpg&amp;fm=jpg"
-              description="As a volunteer with Code Connect, you will have the chance to cultivate valuable skills such as leadership, communication, and organization. Moreover, you will have the opportunity to form a supportive educational relationship with students, aiding in the development of their self-esteem, confidence, and programming skills. Our programs are available both online and in person."
-              rootClassName="rootClassName1"
-            ></BlogCard>
-          </div>
-        </div>
         <div className="home-banner2">
-          <h1 className="home-text26">Our Mission</h1>
-          <span className="home-text27">
+          <h1 className="home-text22">Our Mission</h1>
+          <span className="home-text23">
             <span>
               “Code Connect is dedicated to empowering children in adverse
               circumstances with coding skills and fostering a passion for
@@ -196,6 +140,56 @@ const Home = (props) => {
             <a className="home-link1 button">Read More</a>
           </Link>
         </div>
+        <div className="home-stats1">
+          <div className="home-container3">
+            <BlogCard
+              label="ONSITE"
+              title="Discover our in-person programs"
+              author="Explore more"
+              image_src="/img_4492_1-400h.jpeg"
+              description="We offer group classes for both beginner and intermediate programmers. Classes will be held at the Wesbrook Community Center. All on-site classes will be taught in Python and be hosted on Sunday.       "
+              rootClassName="rootClassName3"
+            ></BlogCard>
+          </div>
+          <div className="home-container4">
+            <div className="home-blog-post-card">
+              <img
+                alt="image"
+                src="https://media.istockphoto.com/id/1237105921/vector/online-class-pupils-or-students-studying-with-computer-at-home-stay-school-learn-from-home.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=pSgrX00g09rTu6nAc35zoVB0XOABuQ0ppy0vctbJ8G0="
+                className="home-image"
+              />
+              <div className="home-container5">
+                <div className="home-container6">
+                  <span className="home-text28">ONLINE</span>
+                  <span className="home-text29">
+                    Join us online in our zoom classes
+                  </span>
+                  <span className="home-text30">
+                    We offer online tutoring that will be held via Zoom. You
+                    will be able to coordinate with your tutor based on your
+                    time schedules. Free 1-on-1 classes will be held on a weekly
+                    basis. We will support students based on what they already
+                    know, and what their intrested in (games, webpages, etc..)
+                  </span>
+                </div>
+                <div className="home-container7">
+                  <div className="home-profile">
+                    <span className="home-text31">Explore More</span>
+                  </div>
+                  <svg viewBox="0 0 1024 1024" className="home-icon">
+                    <path d="M512 170l342 342-342 342-60-60 238-240h-520v-84h520l-238-240z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <BlogCard
+            title="Want to sign up as a tutor?"
+            image_src="https://images.pexels.com/photos/3127880/pexels-photo-3127880.jpeg?cs=srgb&amp;dl=pexels-linda-ellershein-3127880.jpg&amp;fm=jpg"
+            description="&quot;Did you know that coding opens doors to careers earning anywhere from $67,370 to around $116,220 per year? Whether you're thriving or facing challenges, at Code Connect, we're here to ignite opportunities for young aspiring coders. Join our squad of dedicated mentors, where your growth matters."
+            rootClassName="rootClassName2"
+          ></BlogCard>
+        </div>
         <Footer></Footer>
       </div>
       <style jsx>
@@ -208,7 +202,6 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: flex-start;
-            background-color: #ffffff;
           }
           .home-hero {
             width: 100%;
@@ -231,8 +224,10 @@ const Home = (props) => {
             width: 616px;
             font-size: 3rem;
             max-width: 450px;
+            font-style: normal;
+            font-weight: 700;
           }
-          .home-text07 {
+          .home-text06 {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
           }
@@ -270,20 +265,17 @@ const Home = (props) => {
             width: 100%;
             height: 80vh;
           }
-          .home-separator {
-            width: 80%;
-            height: 2px;
-            margin-top: 1%;
-            margin-bottom: 1%;
-            background-color: var(--dl-color-gray-500);
-          }
           .home-banner {
             width: 100%;
             display: flex;
-            padding: var(--dl-space-space-threeunits);
             align-items: center;
             flex-direction: row;
             justify-content: space-between;
+            background-image: linear-gradient(
+              to right,
+              #f1f2b5 0%,
+              #135058 100%
+            );
           }
           .home-banner1 {
             width: 100%;
@@ -291,25 +283,28 @@ const Home = (props) => {
             padding: var(--dl-space-space-threeunits);
             align-items: center;
             flex-direction: column;
-            justify-content: space-between;
+            justify-content: center;
+          }
+          .home-text07 {
+            color: rgb(0, 0, 0);
+            font-size: 3rem;
+            font-style: normal;
+            text-align: center;
+            font-weight: 700;
           }
           .home-container2 {
             flex: 0 0 auto;
             width: auto;
+            border: 2px dashed rgba(120, 120, 120, 0.4);
             height: auto;
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             justify-content: center;
           }
           .home-text08 {
-            color: #000000;
-            font-size: 3rem;
-            text-align: center;
-          }
-          .home-text09 {
-            color: #000000;
+            color: rgba(0, 0, 0, 0.84);
             font-size: 20px;
-            max-width: 800px;
+            max-width: 1000px;
             font-style: normal;
             margin-top: var(--dl-space-space-twounits);
             text-align: center;
@@ -349,6 +344,8 @@ const Home = (props) => {
           .home-text14 {
             color: rgb(255, 124, 76);
             font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
           }
           .home-text17 {
             font-size: 1.15rem;
@@ -363,6 +360,8 @@ const Home = (props) => {
           .home-text18 {
             color: rgb(255, 124, 76);
             font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
           }
           .home-text19 {
             font-size: 1.15rem;
@@ -377,21 +376,69 @@ const Home = (props) => {
           .home-text20 {
             color: rgb(255, 124, 76);
             font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
           }
           .home-text21 {
             font-size: 1.15rem;
             margin-top: var(--dl-space-space-halfunit);
             text-align: center;
           }
-          .home-blog {
+          .home-banner2 {
             width: 100%;
-            height: 100%;
             display: flex;
-            padding: 4%;
+            align-items: center;
+            padding-top: var(--dl-space-space-threeunits);
+            padding-left: var(--dl-space-space-threeunits);
+            padding-right: var(--dl-space-space-threeunits);
+            flex-direction: column;
+            padding-bottom: var(--dl-space-space-threeunits);
+            justify-content: space-between;
+            background-image: linear-gradient(
+              to right,
+              #c2e59c 0%,
+              #64b3f4 100%
+            );
+          }
+          .home-text22 {
+            font-size: 3rem;
+            font-style: normal;
+            text-align: center;
+            font-weight: 700;
+          }
+          .home-text23 {
+            color: rgba(0, 0, 0, 0.84);
+            font-size: 20px;
+            max-width: 1000px;
+            font-style: normal;
+            margin-top: var(--dl-space-space-twounits);
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: var(--dl-space-space-twounits);
+          }
+          .home-link1 {
+            color: #ffffff;
+            transition: 0.3s;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+            background-color: #000000;
+          }
+          .home-link1:hover {
+            transform: scale(1.02);
+          }
+          .home-stats1 {
+            width: 100%;
+            display: grid;
+            padding: var(--dl-space-space-threeunits);
+            grid-gap: var(--dl-space-space-twounits);
+            position: relative;
             max-width: var(--dl-size-size-maxwidth);
-            align-items: flex-start;
-            flex-direction: row;
-            justify-content: center;
+            align-self: center;
+            padding-top: 48px;
+            grid-template-columns: 1fr 1fr 1fr;
           }
           .home-container3 {
             display: flex;
@@ -441,18 +488,18 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-text22 {
+          .home-text28 {
             color: var(--dl-color-gray-500);
             font-weight: 700;
             margin-bottom: var(--dl-space-space-halfunit);
             text-transform: uppercase;
           }
-          .home-text23 {
+          .home-text29 {
             font-size: 1.5rem;
             font-weight: 300;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-text24 {
+          .home-text30 {
             color: var(--dl-color-gray-500);
             width: 100%;
             height: 100%;
@@ -481,7 +528,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .home-text25 {
+          .home-text31 {
             font-weight: 300;
             text-decoration: underline;
           }
@@ -489,51 +536,21 @@ const Home = (props) => {
             width: 24px;
             height: 24px;
           }
-          .home-container8 {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-          }
-          .home-banner2 {
-            width: 100%;
-            display: flex;
-            padding: var(--dl-space-space-threeunits);
-            align-items: center;
-            flex-direction: column;
-            justify-content: space-between;
-            background-image: linear-gradient(
-              90deg,
-              rgb(194, 229, 156) 0%,
-              rgb(255, 248, 234) 100%
-            );
-          }
-          .home-text26 {
-            font-size: 3rem;
-            text-align: center;
-          }
-          .home-text27 {
-            font-size: 20px;
-            max-width: var(--dl-size-size-maxwidth);
-            font-style: normal;
-            margin-top: var(--dl-space-space-twounits);
-            text-align: center;
-            font-weight: 500;
-            margin-bottom: var(--dl-space-space-twounits);
-          }
-          .home-link1 {
-            color: #ffffff;
-            transition: 0.3s;
-            padding-top: var(--dl-space-space-unit);
-            padding-left: var(--dl-space-space-twounits);
-            padding-right: var(--dl-space-space-twounits);
-            padding-bottom: var(--dl-space-space-unit);
-            text-decoration: none;
-            background-color: #000000;
-          }
-          .home-link1:hover {
-            transform: scale(1.02);
-          }
           @media (max-width: 1200px) {
+            .home-banner {
+              background-image: linear-gradient(
+                to right,
+                #f1f2b5 0%,
+                #135058 100%
+              );
+            }
+            .home-text07 {
+              text-align: justify;
+            }
+            .home-text08 {
+              color: rgb(0, 0, 0);
+              text-align: center;
+            }
             .home-text14 {
               color: rgb(255, 124, 76);
             }
@@ -541,20 +558,27 @@ const Home = (props) => {
               color: rgb(255, 124, 76);
               font-size: 3rem;
             }
-            .home-container6 {
-              height: 25vw;
-              margin-bottom: 5%;
-            }
             .home-banner2 {
+              align-items: center;
               padding-bottom: 48px;
+              justify-content: center;
+              background-image: linear-gradient(
+                to right,
+                #c2e59c 0%,
+                #64b3f4 100%
+              );
             }
-            .home-text27 {
+            .home-text23 {
               font-size: 20px;
             }
             .home-link1 {
               color: rgb(255, 255, 255);
               text-decoration: none;
               background-color: rgb(0, 0, 0);
+            }
+            .home-container6 {
+              height: 25vw;
+              margin-bottom: 5%;
             }
           }
           @media (max-width: 991px) {
@@ -574,15 +598,12 @@ const Home = (props) => {
             .home-text01 {
               text-align: center;
             }
-            .home-text02 {
-              text-align: center;
-            }
-            .home-text07 {
+            .home-text06 {
               text-align: center;
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
-            .home-text09 {
+            .home-text08 {
               max-width: 100%;
             }
             .home-text14 {
@@ -594,8 +615,8 @@ const Home = (props) => {
             .home-text20 {
               text-align: center;
             }
-            .home-blog {
-              flex-direction: column;
+            .home-text23 {
+              max-width: 100%;
             }
             .home-container3 {
               margin-right: 0px;
@@ -608,16 +629,29 @@ const Home = (props) => {
             .home-image {
               height: 350px;
             }
-            .home-text27 {
-              max-width: 100%;
-            }
           }
           @media (max-width: 767px) {
             .home-hero {
+              width: 100%;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text07 {
+            .home-text {
+              font-size: 3rem;
+            }
+            .home-text01 {
+              font-weight: 900;
+            }
+            .home-text02 {
+              font-weight: 900;
+            }
+            .home-text03 {
+              font-weight: 900;
+            }
+            .home-text04 {
+              font-weight: 900;
+            }
+            .home-text06 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
@@ -630,7 +664,7 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text09 {
+            .home-text08 {
               color: rgb(0, 0, 0);
               font-size: 20px;
               align-self: stretch;
@@ -653,17 +687,18 @@ const Home = (props) => {
             .home-text21 {
               text-align: center;
             }
-            .home-blog {
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-            }
             .home-banner2 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text27 {
+            .home-text23 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
+            }
+            .home-stats1 {
+              padding-left: var(--dl-space-space-twounits);
+              padding-right: var(--dl-space-space-twounits);
+              grid-template-columns: 1fr 1fr;
             }
           }
           @media (max-width: 479px) {
@@ -678,8 +713,21 @@ const Home = (props) => {
               margin-bottom: var(--dl-space-space-unit);
             }
             .home-text {
+              width: 401px;
               font-size: 3rem;
               margin-top: 4%;
+            }
+            .home-text01 {
+              font-weight: 900;
+            }
+            .home-text02 {
+              font-weight: 900;
+            }
+            .home-text03 {
+              font-weight: 900;
+            }
+            .home-text04 {
+              font-weight: 900;
             }
             .home-btn-group {
               margin-top: 0%;
@@ -690,7 +738,7 @@ const Home = (props) => {
               margin-left: 0px;
             }
             .home-div {
-              height: 84vh;
+              height: 515px;
               margin-top: -50%;
             }
             .home-banner {
@@ -705,10 +753,9 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text09 {
+            .home-text08 {
               color: rgb(0, 0, 0);
               font-size: 20px;
-              min-width: var(--dl-size-size-xlarge);
               align-self: stretch;
               font-style: normal;
               text-align: center;
@@ -721,17 +768,18 @@ const Home = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
               grid-template-columns: 1fr;
             }
-            .home-blog {
-              padding-top: var(--dl-space-space-twounits);
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-twounits);
-            }
             .home-banner2 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-stats1 {
+              padding-top: var(--dl-space-space-twounits);
+              padding-left: var(--dl-space-space-unit);
+              padding-right: var(--dl-space-space-unit);
+              padding-bottom: var(--dl-space-space-twounits);
+              grid-template-columns: 1fr;
             }
           }
         `}

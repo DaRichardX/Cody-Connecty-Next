@@ -24,7 +24,7 @@ const Story = (props) => {
             <h1 className="story-text">Our Story</h1>
             <div className="story-separator"></div>
             <span className="story-text01">
-              <span>
+              <span className="story-text02">
                 Code Connect was founded by two University Hill Secondary
                 students, Richard and Claire, in the december of 2021. They saw
                 the insufficiency in free online education and had the vision to
@@ -37,9 +37,9 @@ const Story = (props) => {
                   }}
                 />
               </span>
-              <br></br>
-              <br></br>
-              <span>
+              <br className="story-text03"></br>
+              <br className="story-text04"></br>
+              <span className="story-text05">
                 Slowly, Richard and Claire began to build the foundations of
                 this program. Claire talked to Wesbrook UNA and worked out a
                 partnership to official launch this program. Initially, Code
@@ -52,7 +52,7 @@ const Story = (props) => {
                 />
               </span>
               <span className="story-text06">YOUR</span>
-              <span>
+              <span className="story-text07">
                 {' '}
                 support, to better the program and provide the optimal
                 experience for students. In the future, we hope to continue
@@ -229,6 +229,26 @@ const Story = (props) => {
             .story-text01 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
+            }
+            .story-text02 {
+              line-height: 1.3;
+            }
+            .story-text03 {
+              line-height: 1.3;
+            }
+            .story-text04 {
+              line-height: 1.3;
+            }
+            .story-text05 {
+              line-height: 1.3;
+            }
+            .story-text06 {
+              font-style: normal;
+              font-weight: 600;
+              line-height: 1.3;
+            }
+            .story-text07 {
+              line-height: 1.3;
             }
             .story-btn-group {
               flex-direction: column;

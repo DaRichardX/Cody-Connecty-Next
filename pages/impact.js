@@ -17,8 +17,8 @@ const Impact = (props) => {
           <h2 className="impact-text">
             <br></br>
             <span>
-              As of 2023, Code Connect has helped more than 40 students for more
-              than 160 hours of learning across Vancouver
+              As of 2023, Code Connect has helped more than 100 students for
+              more than 200 hours of learning across Vancouver
             </span>
             <br className="impact-text3"></br>
             <span>
@@ -99,6 +99,9 @@ const Impact = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
+            .impact-text5 {
+              text-align: center;
+            }
           }
           @media (max-width: 479px) {
             .impact-banner {
@@ -106,6 +109,13 @@ const Impact = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
+            }
+            .impact-text {
+              margin-top: var(--dl-space-space-fiveunits);
+            }
+            .impact-text5 {
+              width: var(--dl-size-size-xxlarge);
+              text-align: center;
             }
           }
         `}

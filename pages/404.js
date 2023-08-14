@@ -15,8 +15,8 @@ const Page = (props) => {
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name3"></NavBar>
         <div className="page-container1">
-          <h1>
-            <span>Page not found :(</span>
+          <h1 className="page-text">
+            <span>Page not found :( 404</span>
             <br></br>
           </h1>
           <span className="page-text03">
@@ -81,6 +81,38 @@ const Page = (props) => {
             margin-top: 2%;
             text-align: center;
             text-decoration: none;
+          }
+          @media (max-width: 1200px) {
+            .page-container1 {
+              height: auto;
+            }
+          }
+          @media (max-width: 991px) {
+            .page-container1 {
+              margin-top: 30%;
+            }
+          }
+          @media (max-width: 767px) {
+            .page-container1 {
+              height: auto;
+              margin-top: 30%;
+            }
+            .page-text03 {
+              width: 80%;
+            }
+          }
+          @media (max-width: 479px) {
+            .page-container1 {
+              height: auto;
+              margin-top: 40%;
+            }
+            .page-text {
+              width: 85%;
+            }
+            .page-text03 {
+              width: 70%;
+              margin-top: 12%;
+            }
           }
         `}
       </style>

@@ -13,8 +13,8 @@ const Mission = (props) => {
           <meta property="og:title" content="Mission - Code Connect" />
         </Head>
         <NavBar rootClassName="nav-bar-root-class-name1"></NavBar>
-        <div className="mission-hero">
-          <div className="mission-container1 animate__fadeInLeft animate__animated">
+        <div className="mission-hero animate__fadeInDown animate__animated">
+          <div className="mission-container1 animate__fadeInDown animate__animated">
             <h1 className="mission-text">
               <br></br>
               <span>Our Mission</span>
@@ -33,16 +33,28 @@ const Mission = (props) => {
                 contribute positively to society.
               </span>
               <br></br>
+              <br></br>
             </span>
           </div>
+          <img
+            alt="image"
+            src="https://images.unsplash.com/photo-1503919545889-aef636e10ad4?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEzfHxraWRzfGVufDB8fHx8MTY5MTk2NzYwOHww&amp;ixlib=rb-4.0.3&amp;w=1400"
+            className="mission-image"
+          />
         </div>
-        <div className="mission-hero1">
-          <div className="mission-container2 animate__fadeInRight animate__animated">
-            <h1 className="mission-text07">Our Vision</h1>
-            <h2 className="mission-text08">
-              Confidence, skills, and knowledge
-            </h2>
-            <span className="mission-text09">
+        <div className="mission-hero1 animate__fadeInDown animate__animated">
+          <img
+            alt="image"
+            src="https://images.unsplash.com/photo-1691592740763-6b13de20f14c?ixid=M3w5MTMyMXwwfDF8YWxsfDd8fHx8fHwyfHwxNjkxOTY1ODQ0fA&amp;ixlib=rb-4.0.3&amp;w=1400"
+            className="mission-image1"
+          />
+          <div className="mission-container2 animate__fadeInDown animate__animated">
+            <h1 className="mission-text08">
+              <br></br>
+              <span>Our Vision</span>
+            </h1>
+            <h2 className="mission-text11">Bridging the digital divide</h2>
+            <span className="mission-text12">
               <br></br>
               <br></br>
               <span>
@@ -92,7 +104,7 @@ const Mission = (props) => {
             margin-top: 6%;
             min-height: auto;
             transition: 0.3s;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: center;
           }
 
@@ -118,6 +130,11 @@ const Mission = (props) => {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
           }
+          .mission-image {
+            width: 989px;
+            height: 490px;
+            object-fit: cover;
+          }
           .mission-hero1 {
             width: 100%;
             display: flex;
@@ -129,31 +146,43 @@ const Mission = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
+          .mission-image1 {
+            width: 604px;
+            height: 434px;
+            object-fit: cover;
+          }
           .mission-container2 {
             display: flex;
             align-self: flex-start;
+            margin-top: var(--dl-space-space-threeunits);
             align-items: stretch;
-            margin-left: 0px;
+            margin-left: var(--dl-space-space-threeunits);
+            padding-left: var(--dl-space-space-unit);
             flex-direction: column;
           }
-          .mission-text07 {
+          .mission-text08 {
             font-size: 3rem;
           }
-          .mission-text08 {
+          .mission-text11 {
             margin-top: var(--dl-space-space-unit);
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .mission-text09 {
+          .mission-text12 {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-threeunits);
           }
           @media (max-width: 1200px) {
             .mission-hero {
-              height: auto;
+              width: 100%;
+              height: 495px;
               padding-top: 0px;
               padding-bottom: 0px;
+            }
+            .mission-container1 {
+              width: 1052px;
+              height: 387px;
             }
             .mission-text {
               font-size: 3rem;
@@ -161,14 +190,23 @@ const Mission = (props) => {
             .mission-text03 {
               font-weight: 600;
             }
+            .mission-image {
+              width: 337px;
+              height: 482px;
+            }
             .mission-hero1 {
               padding-top: 0px;
               padding-bottom: 0px;
             }
-            .mission-text07 {
-              font-size: 3rem;
+            .mission-image1 {
+              width: 301px;
+              height: 463px;
             }
             .mission-text08 {
+              font-size: 3rem;
+              margin-left: 0px;
+            }
+            .mission-text11 {
               font-weight: 600;
             }
           }
@@ -177,6 +215,8 @@ const Mission = (props) => {
               flex-direction: column;
             }
             .mission-container1 {
+              width: 100%;
+              margin-top: 50%;
               align-items: center;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-twounits);
@@ -197,27 +237,39 @@ const Mission = (props) => {
               padding: var(--dl-space-space-threeunits);
               flex-direction: column;
             }
+            .mission-image1 {
+              width: 352px;
+              margin-left: 65%;
+              margin-right: var(--dl-space-space-threeunits);
+            }
             .mission-container2 {
+              width: 100%;
               align-items: center;
               margin-left: 0px;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-twounits);
             }
-            .mission-text07 {
-              text-align: center;
-            }
             .mission-text08 {
               text-align: center;
             }
-            .mission-text09 {
+            .mission-text11 {
+              text-align: center;
+            }
+            .mission-text12 {
               text-align: center;
               padding-left: var(--dl-space-space-fourunits);
             }
           }
           @media (max-width: 767px) {
             .mission-hero {
+              margin-top: 30%;
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+            }
+            .mission-container1 {
+              width: 100%;
+              height: 100%;
+              margin-top: 60%;
             }
             .mission-text {
               font-size: 3rem;
@@ -226,20 +278,40 @@ const Mission = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
+            .mission-image {
+              margin-right: var(--dl-space-space-fiveunits);
+            }
             .mission-hero1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
+            .mission-image1 {
+              align-self: flex-end;
+              margin-top: 40%;
+              border-color: rgba(0, 0, 0, 0);
+            }
           }
           @media (max-width: 479px) {
             .mission-hero {
+              height: auto;
+              margin-top: 10%;
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
+              margin-bottom: 10%;
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
             .mission-container1 {
-              margin-bottom: var(--dl-space-space-unit);
+              height: auto;
+              margin-top: 0px;
+            }
+            .mission-text {
+              font-size: 3rem;
+            }
+            .mission-image {
+              width: 100%;
+              align-self: center;
+              margin-right: 0px;
             }
             .mission-hero1 {
               padding-top: var(--dl-space-space-twounits);
@@ -247,10 +319,21 @@ const Mission = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .mission-container2 {
-              margin-bottom: var(--dl-space-space-unit);
+            .mission-image1 {
+              width: 100%;
+              height: auto;
+              margin-top: -8%;
+              margin-left: 80%;
+              border-color: rgba(0, 0, 0, 0);
+              border-width: 10%;
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-halfunit);
+              padding-right: 0px;
             }
-            .mission-text09 {
+            .mission-container2 {
+              padding-left: 0px;
+            }
+            .mission-text12 {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
