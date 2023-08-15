@@ -31,7 +31,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm i --cache .npm
+    - run: npm install
     - run: npm run build
     - run: npm run export
     - run: sudo rm -r /var/www/codeconnect.ca/html/*
