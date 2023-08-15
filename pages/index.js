@@ -40,15 +40,19 @@ const Home = (props) => {
               digital divide.
             </span>
             <div className="home-btn-group">
-              <button className="home-button button">Get Started</button>
-              <button className="home-button1 button">Learn More</button>
+              <Link href="/get-started">
+                <a className="home-link button">Get Started</a>
+              </Link>
+              <Link href="/mission">
+                <a className="home-link1 button">Learn More</a>
+              </Link>
             </div>
           </div>
           <div className="home-div">
             <lottie-player
               src="https://lottie.host/ce9ca870-a333-44f8-9a72-31749acd2d75/3Jo1iPrhrr.json"
               loop
-              speed="1"
+              speed="0.5"
               autoplay
               background="transparent"
             ></lottie-player>
@@ -85,7 +89,7 @@ const Home = (props) => {
               </span>
             </span>
             <Link href="/mission">
-              <a className="home-link button">Read More</a>
+              <a className="home-link2 button">Read More</a>
             </Link>
           </div>
         </div>
@@ -137,7 +141,7 @@ const Home = (props) => {
             </span>
           </span>
           <Link href="/mission">
-            <a className="home-link1 button">Read More</a>
+            <a className="home-link3 button">Read More</a>
           </Link>
         </div>
         <div className="home-stats1">
@@ -238,18 +242,19 @@ const Home = (props) => {
             align-items: center;
             flex-direction: row;
           }
-          .home-button {
+          .home-link {
             transition: 0.3s;
             padding-top: var(--dl-space-space-unit);
             padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
-          .home-button:hover {
+          .home-link:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .home-button1 {
+          .home-link1 {
             transition: 0.3s;
             margin-left: var(--dl-space-space-unit);
             padding-top: var(--dl-space-space-unit);
@@ -257,13 +262,14 @@ const Home = (props) => {
             padding-left: var(--dl-space-space-twounits);
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
           }
-          .home-button1:hover {
+          .home-link1:hover {
             border-color: var(--dl-color-gray-black);
           }
           .home-div {
             width: 100%;
-            height: 80vh;
+            height: 72vh;
           }
           .home-banner {
             width: 100%;
@@ -272,9 +278,9 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
             background-image: linear-gradient(
-              to right,
-              #f1f2b5 0%,
-              #135058 100%
+              270deg,
+              rgba(198, 198, 133, 0.66) 22%,
+              rgb(40, 121, 132) 100%
             );
           }
           .home-banner1 {
@@ -311,7 +317,7 @@ const Home = (props) => {
             font-weight: 500;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-link {
+          .home-link2 {
             color: #ffffff;
             transition: 0.3s;
             padding-top: var(--dl-space-space-unit);
@@ -321,7 +327,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: #000000;
           }
-          .home-link:hover {
+          .home-link2:hover {
             transform: scale(1.02);
           }
           .home-stats {
@@ -416,7 +422,7 @@ const Home = (props) => {
             font-weight: 500;
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-link1 {
+          .home-link3 {
             color: #ffffff;
             transition: 0.3s;
             padding-top: var(--dl-space-space-unit);
@@ -426,7 +432,7 @@ const Home = (props) => {
             text-decoration: none;
             background-color: #000000;
           }
-          .home-link1:hover {
+          .home-link3:hover {
             transform: scale(1.02);
           }
           .home-stats1 {
@@ -571,7 +577,7 @@ const Home = (props) => {
             .home-text23 {
               font-size: 20px;
             }
-            .home-link1 {
+            .home-link3 {
               color: rgb(255, 255, 255);
               text-decoration: none;
               background-color: rgb(0, 0, 0);
@@ -603,6 +609,9 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-threeunits);
               padding-right: var(--dl-space-space-threeunits);
             }
+            .home-btn-group {
+              justify-content: center;
+            }
             .home-text08 {
               max-width: 100%;
             }
@@ -617,6 +626,9 @@ const Home = (props) => {
             }
             .home-text23 {
               max-width: 100%;
+            }
+            .home-stats1 {
+              grid-template-columns: 1fr 1fr;
             }
             .home-container3 {
               margin-right: 0px;
@@ -733,13 +745,13 @@ const Home = (props) => {
               margin-top: 0%;
               flex-direction: column;
             }
-            .home-button1 {
+            .home-link1 {
               margin-top: var(--dl-space-space-unit);
               margin-left: 0px;
             }
             .home-div {
               height: 515px;
-              margin-top: -50%;
+              margin-top: -40%;
             }
             .home-banner {
               padding-top: var(--dl-space-space-twounits);

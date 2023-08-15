@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
@@ -23,18 +24,43 @@ const Footer = (props) => {
           </div>
           <div className="footer-links-container">
             <div className="footer-container1">
-              <div className="footer-product-container">
-                <span className="footer-text10">{props.Programs}</span>
-                <span className="footer-text11">{props.text2}</span>
-                <span className="footer-text12">{props.Workshops}</span>
-                <span>{props.text4}</span>
-              </div>
               <div className="footer-company-container">
-                <span className="footer-text14">{props.text5}</span>
-                <span className="footer-text15">{props.text6}</span>
-                <span className="footer-text16">{props.text7}</span>
-                <span className="footer-text17">{props.text8}</span>
-                <span>{props.text9}</span>
+                <span className="footer-text10">{props.text5}</span>
+                <Link href="/">
+                  <a className="footer-link">{props.text6}</a>
+                </Link>
+                <Link href="/mission">
+                  <a className="footer-link1">{props.text7}</a>
+                </Link>
+                <Link href="/team">
+                  <a className="footer-link2">{props.text8}</a>
+                </Link>
+                <Link href="/story">
+                  <a className="footer-link3">{props.text9}</a>
+                </Link>
+              </div>
+              <div className="footer-product-container">
+                <span className="footer-text12">{props.Programs}</span>
+                <Link href="/in-person-classes">
+                  <a className="footer-link4">{props.text2}</a>
+                </Link>
+                <Link href="/workshop">
+                  <a className="footer-link5">{props.Workshops}</a>
+                </Link>
+                <Link href="/zoom-classes">
+                  <a className="footer-link6">{props.text4}</a>
+                </Link>
+              </div>
+              <div className="footer-product-container1">
+                <span className="footer-text13">{props.Programs1}</span>
+                <Link href="/in-person-programs">
+                  <a className="footer-link7">Online</a>
+                </Link>
+                <span className="footer-text15">
+                  <span>In-person</span>
+                  <br></br>
+                </span>
+                <span>Coordinator</span>
               </div>
             </div>
             <div className="footer-container2">
@@ -49,7 +75,7 @@ const Footer = (props) => {
                     href="https://instagram.com/code.connect.ca"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="footer-link"
+                    className="footer-link8"
                   >
                     <svg
                       viewBox="0 0 877.7142857142857 1024"
@@ -91,6 +117,7 @@ const Footer = (props) => {
             justify-content: space-between;
           }
           .footer-logo {
+            width: 35%;
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
             align-items: flex-start;
@@ -109,35 +136,20 @@ const Footer = (props) => {
             margin-bottom: -1%;
           }
           .footer-links-container {
+            width: 70%;
             display: flex;
             align-items: flex-start;
             flex-direction: row;
             justify-content: space-between;
           }
           .footer-container1 {
+            width: 100%;
             display: flex;
+            flex-wrap: wrap;
             align-items: flex-start;
-            margin-right: 10rem;
+            margin-right: 6%;
             flex-direction: row;
             justify-content: space-between;
-          }
-          .footer-product-container {
-            flex: 0 0 auto;
-            display: flex;
-            align-items: flex-start;
-            margin-right: 10rem;
-            flex-direction: column;
-            justify-content: flex-start;
-          }
-          .footer-text10 {
-            font-weight: 700;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-          }
-          .footer-text11 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .footer-text12 {
-            margin-bottom: var(--dl-space-space-unit);
           }
           .footer-company-container {
             flex: 0 0 auto;
@@ -146,17 +158,63 @@ const Footer = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .footer-text14 {
+          .footer-text10 {
             font-weight: 700;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
+          .footer-link {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link1 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link2 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link3 {
+            text-decoration: none;
+          }
+          .footer-product-container {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .footer-text12 {
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .footer-link4 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link5 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
+          .footer-link6 {
+            text-decoration: none;
+          }
+          .footer-product-container1 {
+            flex: 0 0 auto;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            justify-content: flex-start;
+          }
+          .footer-text13 {
+            font-weight: 700;
+            margin-bottom: var(--dl-space-space-oneandhalfunits);
+          }
+          .footer-link7 {
+            margin-bottom: var(--dl-space-space-unit);
+            text-decoration: none;
+          }
           .footer-text15 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .footer-text16 {
-            margin-bottom: var(--dl-space-space-unit);
-          }
-          .footer-text17 {
             margin-bottom: var(--dl-space-space-unit);
           }
           .footer-container2 {
@@ -195,7 +253,7 @@ const Footer = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .footer-link {
+          .footer-link8 {
             display: contents;
           }
           .footer-icon {
@@ -223,15 +281,26 @@ const Footer = (props) => {
             align-self: center;
           }
 
-          @media (max-width: 991px) {
-            .footer-footer {
-              flex-direction: column;
+          @media (max-width: 1200px) {
+            .footer-logo {
+              width: 30%;
             }
             .footer-container1 {
-              margin-right: var(--dl-space-space-fourunits);
+              width: 100%;
+              margin-left: 6%;
             }
-            .footer-product-container {
-              margin-right: var(--dl-space-space-fourunits);
+          }
+          @media (max-width: 991px) {
+            .footer-footer {
+              width: 100%;
+              flex-direction: column;
+            }
+            .footer-image {
+              margin-left: -6%;
+            }
+            .footer-container1 {
+              margin-left: var(--dl-space-space-unit);
+              margin-right: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 767px) {
@@ -245,6 +314,7 @@ const Footer = (props) => {
               justify-content: space-between;
             }
             .footer-logo {
+              width: 80%;
               align-items: center;
             }
             .footer-image {
@@ -259,14 +329,24 @@ const Footer = (props) => {
             .footer-links-container {
               width: 100%;
               align-items: flex-start;
-              flex-direction: row;
+              flex-direction: column;
               justify-content: center;
             }
             .footer-container1 {
-              margin-right: var(--dl-space-space-fourunits);
+              max-width: 400px;
+              align-self: center;
             }
             .footer-product-container {
-              margin-right: var(--dl-space-space-fourunits);
+              margin-right: 5%;
+            }
+            .footer-product-container1 {
+              margin-right: 5%;
+            }
+            .footer-container2 {
+              align-self: center;
+            }
+            .footer-root-class-name13 {
+              margin-top: 80%;
             }
           }
           @media (max-width: 479px) {
@@ -293,6 +373,9 @@ const Footer = (props) => {
               align-self: center;
               margin-right: 0px;
             }
+            .footer-product-container1 {
+              margin-right: 0px;
+            }
             .footer-container2 {
               margin-top: var(--dl-space-space-oneandhalfunits);
               align-items: flex-start;
@@ -308,6 +391,9 @@ const Footer = (props) => {
             .footer-root-class-name2 {
               margin-top: 20%;
             }
+            .footer-root-class-name13 {
+              margin-top: 80%;
+            }
           }
         `}
       </style>
@@ -317,12 +403,15 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   text2: 'In-person',
-  text9: 'Blogs',
+  text9: 'Story',
   text10: 'Contact Us',
   text6: 'About',
+  Programs1: 'Volunteer',
   image_src1: 'd6e88146-80e6-432d-a9a3-33342e5602b1',
   image_alt: 'image',
+  text41: 'Online',
   text11: 'info@codeconnect.ca',
+  text21: 'Online',
   text8: 'Team',
   rootClassName: '',
   Programs: 'Programs',
@@ -331,6 +420,7 @@ Footer.defaultProps = {
   image_src: '80c4bf10-438b-44ae-8955-a2dcbbb72b30',
   text5: 'About us',
   text13: 'Follow Us',
+  Workshops1: 'Workshops',
   Workshops: 'Workshops',
 }
 
@@ -339,9 +429,12 @@ Footer.propTypes = {
   text9: PropTypes.string,
   text10: PropTypes.string,
   text6: PropTypes.string,
+  Programs1: PropTypes.string,
   image_src1: PropTypes.string,
   image_alt: PropTypes.string,
+  text41: PropTypes.string,
   text11: PropTypes.string,
+  text21: PropTypes.string,
   text8: PropTypes.string,
   rootClassName: PropTypes.string,
   Programs: PropTypes.string,
@@ -350,6 +443,7 @@ Footer.propTypes = {
   image_src: PropTypes.string,
   text5: PropTypes.string,
   text13: PropTypes.string,
+  Workshops1: PropTypes.string,
   Workshops: PropTypes.string,
 }
 

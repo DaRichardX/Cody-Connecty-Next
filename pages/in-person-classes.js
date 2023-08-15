@@ -277,6 +277,8 @@ const InPersonClasses = (props) => {
           }
           .in-person-classes-text {
             font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
             margin-bottom: var(--dl-space-space-twounits);
           }
           .in-person-classes-separator {

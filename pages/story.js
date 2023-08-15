@@ -131,6 +131,8 @@ const Story = (props) => {
           }
           .story-text {
             font-size: 3rem;
+            font-style: normal;
+            font-weight: 700;
             margin-bottom: 2%;
           }
           .story-separator {

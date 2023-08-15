@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import NavBar from '../components/nav-bar'
-import FeatureCard3 from '../components/feature-card3'
+import ContactUsCard from '../components/contact-us-card'
 import Footer from '../components/footer'
 
 const ContactUs = (props) => {
@@ -22,30 +22,30 @@ const ContactUs = (props) => {
                 <br></br>
               </h1>
               <div className="contact-us-container3">
-                <FeatureCard3
+                <ContactUsCard
                   title="Inquiries"
                   action="info@codeconnct.ca"
                   description="For informations about the program &amp; other"
                   rootClassName="rootClassName"
-                ></FeatureCard3>
-                <FeatureCard3
+                ></ContactUsCard>
+                <ContactUsCard
                   title="Richard Xie"
                   action="zheyuan@codeconnect.ca"
                   description="President"
                   rootClassName="rootClassName3"
-                ></FeatureCard3>
-                <FeatureCard3
+                ></ContactUsCard>
+                <ContactUsCard
                   title="Claire Hua"
                   action="claire@codeconnect.ca"
                   description="Vice-President"
                   rootClassName="rootClassName5"
-                ></FeatureCard3>
-                <FeatureCard3
+                ></ContactUsCard>
+                <ContactUsCard
                   title="Eric Zhou"
                   action="eric@codeconnect.ca"
                   description="Vice-President"
                   rootClassName="rootClassName1"
-                ></FeatureCard3>
+                ></ContactUsCard>
               </div>
             </div>
           </div>
@@ -92,6 +92,8 @@ const ContactUs = (props) => {
           }
           .contact-us-text {
             font-size: 3rem;
+            font-style: normal;
+            font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
           .contact-us-container3 {

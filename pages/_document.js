@@ -25,6 +25,12 @@ class CustomDocument extends Document {
             data-tag="default-style-sheet"
           ></style>
           <link
+            rel="shortcut icon"
+            href="/code connect (1200 ã 1200 px) (1200 ã 600 px) (1200 ã 400 px).png"
+            type="icon/png"
+            sizes="32x32"
+          ></link>
+          <link
             rel="stylesheet"
             href="https://fonts.google.com/specimen/Bebas+Neue"
             data-tag="font"

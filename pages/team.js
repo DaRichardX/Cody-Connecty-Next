@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 
 import NavBar from '../components/nav-bar'
-import GalleryCard1 from '../components/gallery-card1'
+import TeamCard from '../components/team-card'
 import Footer from '../components/footer'
 
 const Team = (props) => {
@@ -16,20 +16,26 @@ const Team = (props) => {
         <NavBar rootClassName="nav-bar-root-class-name5"></NavBar>
         <h1 className="team-heading">Our Team</h1>
         <div className="team-gallery">
-          <GalleryCard1
+          <TeamCard
             title="Richard Xie"
             subtitle="President and Founder"
             image_alt="Richard Xie"
             image_src="/img_5819%20%5B1%5D-1400w-1500w.jpg"
             rootClassName="rootClassName"
-          ></GalleryCard1>
-          <GalleryCard1
+          ></TeamCard>
+          <TeamCard
             title="Claire Hua"
-            subtitle="Presedent and Founder"
+            subtitle="Vice-President"
             image_alt="Claire Hua"
             image_src="/untitled_design_41-1400w-1500w.png"
             rootClassName="rootClassName1"
-          ></GalleryCard1>
+          ></TeamCard>
+          <TeamCard
+            title="Eric Zhou"
+            subtitle="Vice-President"
+            image_alt="Claire Hua"
+            rootClassName="rootClassName2"
+          ></TeamCard>
         </div>
         <Footer rootClassName="footer-root-class-name4"></Footer>
       </div>
@@ -45,7 +51,9 @@ const Team = (props) => {
             justify-content: flex-start;
           }
           .team-heading {
+            font-style: normal;
             margin-top: 8%;
+            font-weight: 700;
           }
           .team-gallery {
             width: 100%;

@@ -25,18 +25,23 @@ const GalleryCard1 = (props) => {
           }
           .gallery-card1-image {
             width: 100%;
-            height: 100%;
+            height: 500px;
             object-fit: cover;
           }
           .gallery-card1-text {
+            height: var(--dl-size-size-small);
             align-self: flex-start;
-            margin-top: var(--dl-space-space-halfunit);
+            margin-top: var(--dl-space-space-twounits);
             font-weight: 600;
-            margin-bottom: var(--dl-space-space-halfunit);
+            margin-bottom: var(--dl-space-space-threeunits);
           }
           .gallery-card1-text1 {
             color: var(--dl-color-gray-500);
+            height: var(--dl-size-size-large);
+            font-size: 24px;
             align-self: flex-start;
+            font-style: normal;
+            font-weight: 500;
           }
 
           @media (max-width: 767px) {
@@ -56,20 +61,20 @@ const GalleryCard1 = (props) => {
 }
 
 GalleryCard1.defaultProps = {
-  rootClassName: '',
-  title: 'Project Title',
-  image_alt: 'image',
-  image_src:
-    'https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxmb3Jlc3R8ZW58MHx8fHwxNjI2MjUxMjg4&ixlib=rb-1.2.1&h=1200',
   subtitle: 'Lorem ipsum dolor sit amet',
+  image_alt: 'image',
+  rootClassName: '',
+  image_src:
+    'https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxmb3Jlc3R8ZW58MHx8fHwxNjI2MjUxMjg4&ixlib=rb-1.2.1&w=1500',
+  title: 'Project Title',
 }
 
 GalleryCard1.propTypes = {
-  rootClassName: PropTypes.string,
-  title: PropTypes.string,
-  image_alt: PropTypes.string,
-  image_src: PropTypes.string,
   subtitle: PropTypes.string,
+  image_alt: PropTypes.string,
+  rootClassName: PropTypes.string,
+  image_src: PropTypes.string,
+  title: PropTypes.string,
 }
 
 export default GalleryCard1
