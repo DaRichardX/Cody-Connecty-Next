@@ -670,6 +670,7 @@ const NavBar = (props) => {
             display: flex;
             position: fixed;
             align-self: center;
+            margin-top: 1%;
             align-items: center;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-twounits);
@@ -1509,10 +1510,12 @@ const NavBar = (props) => {
             left: 0px;
             width: 100%;
             height: 100vh;
-            display: none;
-            padding: 32px;
+            display: flex;
+            padding: var(--dl-space-space-unit);
             z-index: 100;
             position: fixed;
+            transform: translateX(100%);
+            transition: 0.5s;
             flex-direction: column;
             justify-content: space-between;
             background-color: #fff;
@@ -2066,19 +2069,11 @@ const NavBar = (props) => {
             max-width: 100%;
             background-color: #ffffff;
           }
-          .nav-bar-root-class-name1 {
-            top: 26px;
-            left: -9px;
-            background-color: #ffffff;
-          }
           .nav-bar-root-class-name2 {
             background-color: #ffffff;
           }
           .nav-bar-root-class-name3 {
             background-color: #ffffff;
-          }
-          .nav-bar-root-class-name4 {
-            background-color: transparent;
           }
           .nav-bar-root-class-name5 {
             background-color: #ffffff;
@@ -2102,8 +2097,9 @@ const NavBar = (props) => {
           .nav-bar-root-class-name11 {
             background-color: #ffffff;
           }
-          .nav-bar-root-class-name12 {
-            background-color: #ffffff;
+
+          .nav-bar-root-class-name4 {
+            background-color: transparent;
           }
           @media (max-width: 1200px) {
             .nav-bar-navbar-interactive {
@@ -2129,16 +2125,15 @@ const NavBar = (props) => {
               text-transform: capitalize;
               text-decoration: inherit;
             }
+            .nav-bar-mobile-menu {
+              padding: var(--dl-space-space-twounits);
+            }
             .nav-bar-image1 {
               height: 4.5rem;
             }
             .nav-bar-root-class-name {
               top: 0px;
               left: 0px;
-            }
-            .nav-bar-root-class-name1 {
-              top: 1px;
-              right: -2px;
             }
           }
           @media (max-width: 991px) {
@@ -2165,14 +2160,21 @@ const NavBar = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .nav-bar-container {
+              justify-content: center;
+            }
             .nav-bar-navbar-interactive {
               padding: var(--dl-space-space-unit);
             }
             .nav-bar-mobile-menu {
-              padding: 16px;
+              width: 100vw;
+              padding: 0px;
             }
-            .nav-bar-image1 {
-              height: 4.4rem;
+            .nav-bar-container2 {
+              padding: var(--dl-space-space-unit);
+            }
+            .nav-bar-icon09 {
+              align-self: center;
             }
           }
         `}

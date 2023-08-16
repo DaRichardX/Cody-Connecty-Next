@@ -20,7 +20,7 @@ const Team = (props) => {
             title="Richard Xie"
             subtitle="President and Founder"
             image_alt="Richard Xie"
-            image_src="/img_5819%20%5B1%5D-1400w-1500w.jpg"
+            image_src="/e3vlh7atag8%20(1)-1500w.jpg"
             rootClassName="rootClassName"
           ></TeamCard>
           <TeamCard

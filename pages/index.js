@@ -667,6 +667,9 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
+            .home-div {
+              height: 52vh;
+            }
             .home-banner {
               width: 100%;
               padding-left: var(--dl-space-space-twounits);
@@ -725,7 +728,7 @@ const Home = (props) => {
               margin-bottom: var(--dl-space-space-unit);
             }
             .home-text {
-              width: 401px;
+              width: 100%;
               font-size: 3rem;
               margin-top: 4%;
             }
@@ -750,8 +753,8 @@ const Home = (props) => {
               margin-left: 0px;
             }
             .home-div {
-              height: 515px;
-              margin-top: -40%;
+              height: var(--dl-size-size-xxlarge);
+              margin-top: -%;
             }
             .home-banner {
               padding-top: var(--dl-space-space-twounits);

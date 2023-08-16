@@ -110,6 +110,7 @@ const GetStartedStudentSubselection = (props) => {
           .get-started-student-subselection-container3 {
             display: flex;
             margin-right: var(--dl-space-space-threeunits);
+            margin-bottom: 7%;
             padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
@@ -172,6 +173,11 @@ const GetStartedStudentSubselection = (props) => {
             text-align: center;
             font-weight: 600;
             margin-bottom: 0px;
+          }
+          @media (max-width: 1200px) {
+            .get-started-student-subselection-container3 {
+              margin-bottom: 6%;
+            }
           }
           @media (max-width: 991px) {
             .get-started-student-subselection-hero {

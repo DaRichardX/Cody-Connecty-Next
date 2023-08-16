@@ -1,8 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
 
-import NavBar from '../components/nav-bar'
 import Footer from '../components/footer'
+import NavBar from '../components/nav-bar'
 
 const Mission = (props) => {
   return (
@@ -12,7 +12,6 @@ const Mission = (props) => {
           <title>Mission - Code Connect</title>
           <meta property="og:title" content="Mission - Code Connect" />
         </Head>
-        <NavBar rootClassName="nav-bar-root-class-name1"></NavBar>
         <div className="mission-hero animate__fadeInDown animate__animated">
           <div className="mission-container1 animate__fadeInDown animate__animated">
             <h1 className="mission-text">
@@ -84,6 +83,7 @@ const Mission = (props) => {
           </div>
         </div>
         <Footer rootClassName="footer-root-class-name"></Footer>
+        <NavBar rootClassName="nav-bar-root-class-name1"></NavBar>
       </div>
       <style jsx>
         {`
@@ -92,7 +92,7 @@ const Mission = (props) => {
             display: flex;
             overflow: auto;
             min-height: 100vh;
-            align-items: center;
+            align-items: flex-start;
             flex-direction: column;
             justify-content: flex-start;
           }
