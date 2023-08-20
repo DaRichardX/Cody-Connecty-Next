@@ -65,26 +65,11 @@ const NavBar = (props) => {
                     data-thq="thq-dropdown"
                     className="nav-bar-dropdown01 list-item"
                   >
-                    <Link href="/sponsors">
-                      <a>
-                        <div
-                          data-thq="thq-dropdown-toggle"
-                          className="nav-bar-dropdown-toggle02"
-                        >
-                          <span className="nav-bar-partners">Sponsors</span>
-                        </div>
-                      </a>
-                    </Link>
-                  </li>
-                  <li
-                    data-thq="thq-dropdown"
-                    className="nav-bar-dropdown02 list-item"
-                  >
                     <Link href="/impact">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="nav-bar-dropdown-toggle03"
+                          className="nav-bar-dropdown-toggle02"
                         >
                           <span className="nav-bar-text02">Impact</span>
                         </div>
@@ -93,13 +78,13 @@ const NavBar = (props) => {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-bar-dropdown03 list-item"
+                    className="nav-bar-dropdown02 list-item"
                   >
                     <Link href="/team">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="nav-bar-dropdown-toggle04"
+                          className="nav-bar-dropdown-toggle03"
                         >
                           <span className="nav-bar-text03">Team</span>
                         </div>
@@ -108,13 +93,13 @@ const NavBar = (props) => {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-bar-dropdown04 list-item"
+                    className="nav-bar-dropdown03 list-item"
                   >
                     <Link href="/story">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="nav-bar-dropdown-toggle05"
+                          className="nav-bar-dropdown-toggle04"
                         >
                           <span className="nav-bar-text04">
                             <span>Story</span>
@@ -132,7 +117,7 @@ const NavBar = (props) => {
               >
                 <div
                   data-thq="thq-dropdown-toggle"
-                  className="nav-bar-dropdown-toggle06"
+                  className="nav-bar-dropdown-toggle05"
                 >
                   <span className="nav-bar-text07">Programs</span>
                   <div
@@ -150,13 +135,13 @@ const NavBar = (props) => {
                 >
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-bar-dropdown05 list-item"
+                    className="nav-bar-dropdown04 list-item"
                   >
                     <Link href="/in-person-classes">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="nav-bar-dropdown-toggle07"
+                          className="nav-bar-dropdown-toggle06"
                         >
                           <span className="nav-bar-text08">In-person</span>
                         </div>
@@ -165,13 +150,13 @@ const NavBar = (props) => {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-bar-dropdown06 list-item"
+                    className="nav-bar-dropdown05 list-item"
                   >
                     <Link href="/zoom-classes">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="nav-bar-dropdown-toggle08"
+                          className="nav-bar-dropdown-toggle07"
                         >
                           <span className="nav-bar-text09">
                             Online Programs
@@ -182,13 +167,13 @@ const NavBar = (props) => {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-bar-dropdown07 list-item"
+                    className="nav-bar-dropdown06 list-item"
                   >
                     <Link href="/workshop">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="nav-bar-dropdown-toggle09"
+                          className="nav-bar-dropdown-toggle08"
                         >
                           <span className="nav-bar-text10">Workshops</span>
                         </div>
@@ -203,7 +188,7 @@ const NavBar = (props) => {
               >
                 <div
                   data-thq="thq-dropdown-toggle"
-                  className="nav-bar-dropdown-toggle10"
+                  className="nav-bar-dropdown-toggle09"
                 >
                   <span className="nav-bar-text11">Volunteer</span>
                   <div
@@ -221,13 +206,13 @@ const NavBar = (props) => {
                 >
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-bar-dropdown08 list-item"
+                    className="nav-bar-dropdown07 list-item"
                   >
                     <Link href="/in-person-classes">
                       <a>
                         <div
                           data-thq="thq-dropdown-toggle"
-                          className="nav-bar-dropdown-toggle11"
+                          className="nav-bar-dropdown-toggle10"
                         >
                           <span className="nav-bar-text12">
                             In-person Tutor
@@ -238,22 +223,22 @@ const NavBar = (props) => {
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-bar-dropdown09 list-item"
+                    className="nav-bar-dropdown08 list-item"
                   >
                     <div
                       data-thq="thq-dropdown-toggle"
-                      className="nav-bar-dropdown-toggle12"
+                      className="nav-bar-dropdown-toggle11"
                     >
                       <span className="nav-bar-text13">Online Tutor</span>
                     </div>
                   </li>
                   <li
                     data-thq="thq-dropdown"
-                    className="nav-bar-dropdown10 list-item"
+                    className="nav-bar-dropdown09 list-item"
                   >
                     <div
                       data-thq="thq-dropdown-toggle"
-                      className="nav-bar-dropdown-toggle13"
+                      className="nav-bar-dropdown-toggle12"
                     >
                       <span className="nav-bar-text14">
                         Volunteer Ambassador
@@ -272,13 +257,24 @@ const NavBar = (props) => {
                 >
                   <li
                     data-thq="thq-dropdown"
+                    className="nav-bar-dropdown10 list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      className="nav-bar-dropdown-toggle13"
+                    >
+                      <span className="nav-bar-text15">Sub-menu Item</span>
+                    </div>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
                     className="nav-bar-dropdown11 list-item"
                   >
                     <div
                       data-thq="thq-dropdown-toggle"
                       className="nav-bar-dropdown-toggle14"
                     >
-                      <span className="nav-bar-text15">Sub-menu Item</span>
+                      <span className="nav-bar-text16">Sub-menu Item</span>
                     </div>
                   </li>
                   <li
@@ -288,17 +284,6 @@ const NavBar = (props) => {
                     <div
                       data-thq="thq-dropdown-toggle"
                       className="nav-bar-dropdown-toggle15"
-                    >
-                      <span className="nav-bar-text16">Sub-menu Item</span>
-                    </div>
-                  </li>
-                  <li
-                    data-thq="thq-dropdown"
-                    className="nav-bar-dropdown13 list-item"
-                  >
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="nav-bar-dropdown-toggle16"
                     >
                       <span className="nav-bar-text17">Sub-menu Item</span>
                     </div>
@@ -312,13 +297,24 @@ const NavBar = (props) => {
                 >
                   <li
                     data-thq="thq-dropdown"
+                    className="nav-bar-dropdown13 list-item"
+                  >
+                    <div
+                      data-thq="thq-dropdown-toggle"
+                      className="nav-bar-dropdown-toggle16"
+                    >
+                      <span className="nav-bar-text18">Sub-menu Item</span>
+                    </div>
+                  </li>
+                  <li
+                    data-thq="thq-dropdown"
                     className="nav-bar-dropdown14 list-item"
                   >
                     <div
                       data-thq="thq-dropdown-toggle"
                       className="nav-bar-dropdown-toggle17"
                     >
-                      <span className="nav-bar-text18">Sub-menu Item</span>
+                      <span className="nav-bar-text19">Sub-menu Item</span>
                     </div>
                   </li>
                   <li
@@ -329,31 +325,20 @@ const NavBar = (props) => {
                       data-thq="thq-dropdown-toggle"
                       className="nav-bar-dropdown-toggle18"
                     >
-                      <span className="nav-bar-text19">Sub-menu Item</span>
-                    </div>
-                  </li>
-                  <li
-                    data-thq="thq-dropdown"
-                    className="nav-bar-dropdown16 list-item"
-                  >
-                    <div
-                      data-thq="thq-dropdown-toggle"
-                      className="nav-bar-dropdown-toggle19"
-                    >
                       <span className="nav-bar-text20">Sub-menu Item</span>
                     </div>
                   </li>
                 </ul>
               </div>
               <Link href="/contact-us">
-                <a className="nav-bar-link10">Contact</a>
+                <a className="nav-bar-link09">Contact</a>
               </Link>
               <div className="nav-bar-container1">
                 <a
                   href="https://instagram.com/code.connect.ca"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="nav-bar-link11"
+                  className="nav-bar-link10"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -367,7 +352,7 @@ const NavBar = (props) => {
           </div>
           <div data-thq="thq-navbar-btn-group" className="nav-bar-btn-group">
             <Link href="/get-started">
-              <a className="nav-bar-link12 button">Join us</a>
+              <a className="nav-bar-link11 button">Join us</a>
             </Link>
           </div>
           <div data-thq="thq-burger-menu" className="nav-bar-burger-menu">
@@ -404,7 +389,7 @@ const NavBar = (props) => {
                 >
                   <div
                     data-thq="thq-dropdown-toggle"
-                    className="nav-bar-dropdown-toggle20"
+                    className="nav-bar-dropdown-toggle19"
                   >
                     <span className="nav-bar-text21">About</span>
                     <div
@@ -422,13 +407,13 @@ const NavBar = (props) => {
                   >
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-bar-dropdown17 list-item"
+                      className="nav-bar-dropdown16 list-item"
                     >
                       <Link href="/mission">
                         <a>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="nav-bar-dropdown-toggle21"
+                            className="nav-bar-dropdown-toggle20"
                           >
                             <span className="nav-bar-text22">Mission</span>
                           </div>
@@ -437,13 +422,13 @@ const NavBar = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-bar-dropdown18 list-item"
+                      className="nav-bar-dropdown17 list-item"
                     >
                       <Link href="/impact">
                         <a>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="nav-bar-dropdown-toggle22"
+                            className="nav-bar-dropdown-toggle21"
                           >
                             <span className="nav-bar-text23">Impact</span>
                           </div>
@@ -452,13 +437,13 @@ const NavBar = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-bar-dropdown19 list-item"
+                      className="nav-bar-dropdown18 list-item"
                     >
                       <Link href="/team">
                         <a>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="nav-bar-dropdown-toggle23"
+                            className="nav-bar-dropdown-toggle22"
                           >
                             <span className="nav-bar-text24">Team</span>
                           </div>
@@ -467,13 +452,13 @@ const NavBar = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-bar-dropdown20 list-item"
+                      className="nav-bar-dropdown19 list-item"
                     >
                       <Link href="/story">
                         <a>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="nav-bar-dropdown-toggle24"
+                            className="nav-bar-dropdown-toggle23"
                           >
                             <span className="nav-bar-text25">
                               <span>Story</span>
@@ -491,7 +476,7 @@ const NavBar = (props) => {
                 >
                   <div
                     data-thq="thq-dropdown-toggle"
-                    className="nav-bar-dropdown-toggle25"
+                    className="nav-bar-dropdown-toggle24"
                   >
                     <span className="nav-bar-text28">Programs</span>
                     <div
@@ -509,13 +494,13 @@ const NavBar = (props) => {
                   >
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-bar-dropdown21 list-item"
+                      className="nav-bar-dropdown20 list-item"
                     >
                       <Link href="/in-person-classes">
                         <a>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="nav-bar-dropdown-toggle26"
+                            className="nav-bar-dropdown-toggle25"
                           >
                             <span className="nav-bar-text29">In-person</span>
                           </div>
@@ -524,13 +509,13 @@ const NavBar = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-bar-dropdown22 list-item"
+                      className="nav-bar-dropdown21 list-item"
                     >
                       <Link href="/zoom-classes">
                         <a>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="nav-bar-dropdown-toggle27"
+                            className="nav-bar-dropdown-toggle26"
                           >
                             <span className="nav-bar-text30">Zoom 1-on-1</span>
                           </div>
@@ -539,13 +524,13 @@ const NavBar = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-bar-dropdown23 list-item"
+                      className="nav-bar-dropdown22 list-item"
                     >
                       <Link href="/workshop">
                         <a>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="nav-bar-dropdown-toggle28"
+                            className="nav-bar-dropdown-toggle27"
                           >
                             <span className="nav-bar-text31">Workshops</span>
                           </div>
@@ -560,7 +545,7 @@ const NavBar = (props) => {
                 >
                   <div
                     data-thq="thq-dropdown-toggle"
-                    className="nav-bar-dropdown-toggle29"
+                    className="nav-bar-dropdown-toggle28"
                   >
                     <span className="nav-bar-text32">Volunteer</span>
                     <div
@@ -578,13 +563,13 @@ const NavBar = (props) => {
                   >
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-bar-dropdown24 list-item"
+                      className="nav-bar-dropdown23 list-item"
                     >
                       <Link href="/in-person-classes">
                         <a>
                           <div
                             data-thq="thq-dropdown-toggle"
-                            className="nav-bar-dropdown-toggle30"
+                            className="nav-bar-dropdown-toggle29"
                           >
                             <span className="nav-bar-text33">
                               In-person Tutor
@@ -595,22 +580,22 @@ const NavBar = (props) => {
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-bar-dropdown25 list-item"
+                      className="nav-bar-dropdown24 list-item"
                     >
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="nav-bar-dropdown-toggle31"
+                        className="nav-bar-dropdown-toggle30"
                       >
                         <span className="nav-bar-text34">Online Mentor</span>
                       </div>
                     </li>
                     <li
                       data-thq="thq-dropdown"
-                      className="nav-bar-dropdown26 list-item"
+                      className="nav-bar-dropdown25 list-item"
                     >
                       <div
                         data-thq="thq-dropdown-toggle"
-                        className="nav-bar-dropdown-toggle32"
+                        className="nav-bar-dropdown-toggle31"
                       >
                         <span className="nav-bar-text35">
                           Volunteer Coordinator 
@@ -810,7 +795,7 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-partners {
+          .nav-bar-text02 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -843,7 +828,7 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text02 {
+          .nav-bar-text03 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -876,39 +861,6 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text03 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .nav-bar-dropdown04 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .nav-bar-dropdown-toggle05 {
-            fill: #595959;
-            color: #595959;
-            width: 100%;
-            display: inline-flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
-          }
-          .nav-bar-dropdown-toggle05:hover {
-            fill: #fff;
-            color: #fff;
-            background-color: #595959;
-          }
           .nav-bar-text04 {
             width: 100%;
             cursor: pointer;
@@ -923,7 +875,7 @@ const NavBar = (props) => {
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .nav-bar-dropdown-toggle06 {
+          .nav-bar-dropdown-toggle05 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -970,6 +922,39 @@ const NavBar = (props) => {
             background-color: var(--dl-color-gray-white);
             list-style-position: inside;
           }
+          .nav-bar-dropdown04 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .nav-bar-dropdown-toggle06 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .nav-bar-dropdown-toggle06:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-bar-text08 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
           .nav-bar-dropdown05 {
             cursor: pointer;
             display: inline-block;
@@ -995,7 +980,7 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text08 {
+          .nav-bar-text09 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -1028,39 +1013,6 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text09 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .nav-bar-dropdown07 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .nav-bar-dropdown-toggle09 {
-            fill: #595959;
-            color: #595959;
-            width: 100%;
-            display: inline-flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
-          }
-          .nav-bar-dropdown-toggle09:hover {
-            fill: #fff;
-            color: #fff;
-            background-color: #595959;
-          }
           .nav-bar-text10 {
             width: 100%;
             cursor: pointer;
@@ -1075,7 +1027,7 @@ const NavBar = (props) => {
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .nav-bar-dropdown-toggle10 {
+          .nav-bar-dropdown-toggle09 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -1122,6 +1074,39 @@ const NavBar = (props) => {
             background-color: var(--dl-color-gray-white);
             list-style-position: inside;
           }
+          .nav-bar-dropdown07 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .nav-bar-dropdown-toggle10 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .nav-bar-dropdown-toggle10:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-bar-text12 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
           .nav-bar-dropdown08 {
             cursor: pointer;
             display: inline-block;
@@ -1140,14 +1125,13 @@ const NavBar = (props) => {
             border-radius: var(--dl-radius-radius-radius4);
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
           }
           .nav-bar-dropdown-toggle11:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text12 {
+          .nav-bar-text13 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -1175,38 +1159,6 @@ const NavBar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .nav-bar-dropdown-toggle12:hover {
-            fill: #fff;
-            color: #fff;
-            background-color: #595959;
-          }
-          .nav-bar-text13 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .nav-bar-dropdown10 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .nav-bar-dropdown-toggle13 {
-            fill: #595959;
-            color: #595959;
-            width: 100%;
-            display: inline-flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .nav-bar-dropdown-toggle13:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -1242,6 +1194,38 @@ const NavBar = (props) => {
             background-color: var(--dl-color-gray-white);
             list-style-position: inside;
           }
+          .nav-bar-dropdown10 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .nav-bar-dropdown-toggle13 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .nav-bar-dropdown-toggle13:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-bar-text15 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
           .nav-bar-dropdown11 {
             cursor: pointer;
             display: inline-block;
@@ -1266,7 +1250,7 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text15 {
+          .nav-bar-text16 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -1294,38 +1278,6 @@ const NavBar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .nav-bar-dropdown-toggle15:hover {
-            fill: #fff;
-            color: #fff;
-            background-color: #595959;
-          }
-          .nav-bar-text16 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .nav-bar-dropdown13 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .nav-bar-dropdown-toggle16 {
-            fill: #595959;
-            color: #595959;
-            width: 100%;
-            display: inline-flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .nav-bar-dropdown-toggle16:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -1361,6 +1313,38 @@ const NavBar = (props) => {
             background-color: var(--dl-color-gray-white);
             list-style-position: inside;
           }
+          .nav-bar-dropdown13 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .nav-bar-dropdown-toggle16 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+          }
+          .nav-bar-dropdown-toggle16:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-bar-text18 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
           .nav-bar-dropdown14 {
             cursor: pointer;
             display: inline-block;
@@ -1385,7 +1369,7 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text18 {
+          .nav-bar-text19 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -1417,38 +1401,6 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text19 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .nav-bar-dropdown16 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .nav-bar-dropdown-toggle19 {
-            fill: #595959;
-            color: #595959;
-            width: 100%;
-            display: inline-flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .nav-bar-dropdown-toggle19:hover {
-            fill: #fff;
-            color: #fff;
-            background-color: #595959;
-          }
           .nav-bar-text20 {
             width: 100%;
             cursor: pointer;
@@ -1457,7 +1409,7 @@ const NavBar = (props) => {
             font-style: normal;
             font-weight: 500;
           }
-          .nav-bar-link10 {
+          .nav-bar-link09 {
             color: #595959;
             width: 100%;
             cursor: pointer;
@@ -1479,7 +1431,7 @@ const NavBar = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .nav-bar-link11 {
+          .nav-bar-link10 {
             display: contents;
           }
           .nav-bar-instagram-icon {
@@ -1493,7 +1445,7 @@ const NavBar = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .nav-bar-link12 {
+          .nav-bar-link11 {
             text-decoration: none;
           }
           .nav-bar-burger-menu {
@@ -1556,7 +1508,7 @@ const NavBar = (props) => {
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .nav-bar-dropdown-toggle20 {
+          .nav-bar-dropdown-toggle19 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -1603,6 +1555,39 @@ const NavBar = (props) => {
             background-color: var(--dl-color-gray-white);
             list-style-position: inside;
           }
+          .nav-bar-dropdown16 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .nav-bar-dropdown-toggle20 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .nav-bar-dropdown-toggle20:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-bar-text22 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
           .nav-bar-dropdown17 {
             cursor: pointer;
             display: inline-block;
@@ -1628,7 +1613,7 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text22 {
+          .nav-bar-text23 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -1661,7 +1646,7 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text23 {
+          .nav-bar-text24 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -1694,39 +1679,6 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text24 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .nav-bar-dropdown20 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .nav-bar-dropdown-toggle24 {
-            fill: #595959;
-            color: #595959;
-            width: 100%;
-            display: inline-flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
-          }
-          .nav-bar-dropdown-toggle24:hover {
-            fill: #fff;
-            color: #fff;
-            background-color: #595959;
-          }
           .nav-bar-text25 {
             width: 100%;
             cursor: pointer;
@@ -1741,7 +1693,7 @@ const NavBar = (props) => {
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .nav-bar-dropdown-toggle25 {
+          .nav-bar-dropdown-toggle24 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -1788,6 +1740,39 @@ const NavBar = (props) => {
             background-color: var(--dl-color-gray-white);
             list-style-position: inside;
           }
+          .nav-bar-dropdown20 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .nav-bar-dropdown-toggle25 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .nav-bar-dropdown-toggle25:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-bar-text29 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
           .nav-bar-dropdown21 {
             cursor: pointer;
             display: inline-block;
@@ -1813,7 +1798,7 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text29 {
+          .nav-bar-text30 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -1846,39 +1831,6 @@ const NavBar = (props) => {
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text30 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .nav-bar-dropdown23 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .nav-bar-dropdown-toggle28 {
-            fill: #595959;
-            color: #595959;
-            width: 100%;
-            display: inline-flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
-          }
-          .nav-bar-dropdown-toggle28:hover {
-            fill: #fff;
-            color: #fff;
-            background-color: #595959;
-          }
           .nav-bar-text31 {
             width: 100%;
             cursor: pointer;
@@ -1893,7 +1845,7 @@ const NavBar = (props) => {
             position: relative;
             border-radius: var(--dl-radius-radius-radius2);
           }
-          .nav-bar-dropdown-toggle29 {
+          .nav-bar-dropdown-toggle28 {
             fill: #595959;
             color: #595959;
             width: 100%;
@@ -1940,6 +1892,39 @@ const NavBar = (props) => {
             background-color: var(--dl-color-gray-white);
             list-style-position: inside;
           }
+          .nav-bar-dropdown23 {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            border-radius: var(--dl-radius-radius-radius2);
+          }
+          .nav-bar-dropdown-toggle29 {
+            fill: #595959;
+            color: #595959;
+            width: 100%;
+            display: inline-flex;
+            transition: 0.3s;
+            align-items: center;
+            padding-top: var(--dl-space-space-halfunit);
+            padding-left: var(--dl-space-space-unit);
+            border-radius: var(--dl-radius-radius-radius4);
+            padding-right: var(--dl-space-space-unit);
+            padding-bottom: var(--dl-space-space-halfunit);
+            text-decoration: none;
+          }
+          .nav-bar-dropdown-toggle29:hover {
+            fill: #fff;
+            color: #fff;
+            background-color: #595959;
+          }
+          .nav-bar-text33 {
+            width: 100%;
+            cursor: pointer;
+            display: flex;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+          }
           .nav-bar-dropdown24 {
             cursor: pointer;
             display: inline-block;
@@ -1958,14 +1943,13 @@ const NavBar = (props) => {
             border-radius: var(--dl-radius-radius-radius4);
             padding-right: var(--dl-space-space-unit);
             padding-bottom: var(--dl-space-space-halfunit);
-            text-decoration: none;
           }
           .nav-bar-dropdown-toggle30:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
           }
-          .nav-bar-text33 {
+          .nav-bar-text34 {
             width: 100%;
             cursor: pointer;
             display: flex;
@@ -1993,38 +1977,6 @@ const NavBar = (props) => {
             padding-bottom: var(--dl-space-space-halfunit);
           }
           .nav-bar-dropdown-toggle31:hover {
-            fill: #fff;
-            color: #fff;
-            background-color: #595959;
-          }
-          .nav-bar-text34 {
-            width: 100%;
-            cursor: pointer;
-            display: flex;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-          }
-          .nav-bar-dropdown26 {
-            cursor: pointer;
-            display: inline-block;
-            position: relative;
-            border-radius: var(--dl-radius-radius-radius2);
-          }
-          .nav-bar-dropdown-toggle32 {
-            fill: #595959;
-            color: #595959;
-            width: 100%;
-            display: inline-flex;
-            transition: 0.3s;
-            align-items: center;
-            padding-top: var(--dl-space-space-halfunit);
-            padding-left: var(--dl-space-space-unit);
-            border-radius: var(--dl-radius-radius-radius4);
-            padding-right: var(--dl-space-space-unit);
-            padding-bottom: var(--dl-space-space-halfunit);
-          }
-          .nav-bar-dropdown-toggle32:hover {
             fill: #fff;
             color: #fff;
             background-color: #595959;
@@ -2069,11 +2021,15 @@ const NavBar = (props) => {
             max-width: 100%;
             background-color: #ffffff;
           }
+
           .nav-bar-root-class-name2 {
             background-color: #ffffff;
           }
           .nav-bar-root-class-name3 {
             background-color: #ffffff;
+          }
+          .nav-bar-root-class-name4 {
+            background-color: transparent;
           }
           .nav-bar-root-class-name5 {
             background-color: #ffffff;
@@ -2098,9 +2054,6 @@ const NavBar = (props) => {
             background-color: #ffffff;
           }
 
-          .nav-bar-root-class-name4 {
-            background-color: transparent;
-          }
           @media (max-width: 1200px) {
             .nav-bar-navbar-interactive {
               padding-top: var(--dl-space-space-halfunit);
@@ -2111,7 +2064,7 @@ const NavBar = (props) => {
             .nav-bar-image {
               width: 20%;
             }
-            .nav-bar-link10 {
+            .nav-bar-link09 {
               margin-left: var(--dl-space-space-unit);
               margin-right: var(--dl-space-space-twounits);
             }
@@ -2121,7 +2074,7 @@ const NavBar = (props) => {
               margin-left: var(--dl-space-space-unit);
               margin-right: var(--dl-space-space-unit);
             }
-            .nav-bar-link12 {
+            .nav-bar-link11 {
               text-transform: capitalize;
               text-decoration: inherit;
             }
