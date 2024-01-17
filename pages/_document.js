@@ -25,6 +25,10 @@ class CustomDocument extends Document {
             data-tag="default-style-sheet"
           ></style>
           <link
+            rel="stylesheet"
+            href="https://unpkg.com/animate.css@4.1.1/animate.css"
+          ></link>
+          <link
             rel="shortcut icon"
             href="/code connect (1200 ã 1200 px) (1200 ã 600 px) (1200 ã 400 px).png"
             type="icon/png"
@@ -32,7 +36,12 @@ class CustomDocument extends Document {
           ></link>
           <link
             rel="stylesheet"
-            href="https://fonts.google.com/specimen/Bebas+Neue"
+            href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+            data-tag="font"
+          ></link>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
             data-tag="font"
           ></link>
           <link
@@ -40,10 +49,29 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
             data-tag="font"
           ></link>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+            data-tag="font"
+          ></link>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+            data-tag="font"
+          ></link>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&amp;display=swap"
+            data-tag="font"
+          ></link>
+          <link
+            rel="stylesheet"
+            href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+          ></link>
           <noscript
             dangerouslySetInnerHTML={{
               __html:
-                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> --> \n    <style data-section-id=\'dropdown\'>[data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {\n    display: flex; \n  }\n\n  [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {\n    transform: rotate(90deg); \n  }</style>\n\n<link\n    rel="stylesheet"\n    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"\n  /><noscript>',
+                '</noscript><!--This is the head section-->\n<!-- <style> ... </style> --> \n    <style data-section-id=\'dropdown\'>[data-thq="thq-dropdown"]:hover > [data-thq="thq-dropdown-list"] {\n    display: flex; \n  }\n\n  [data-thq="thq-dropdown"]:hover > div [data-thq="thq-dropdown-arrow"] {\n    transform: rotate(90deg); \n  }</style>\n\n  <script>\nconsole.log("Morning")\n\nwindow.onscroll = function() {scrollFunction()};\n\nfunction scrollFunction() {\n  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {\n    document.getElementById("navbar").style.background-color = "transparent";\n  } else {\n    document.getElementById("navbar").style.background-color = "white";\n  }\n}\n</script>\n\n<link\n    rel="stylesheet"\n    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"\n  /><noscript>',
             }}
           ></noscript>
         </Head>

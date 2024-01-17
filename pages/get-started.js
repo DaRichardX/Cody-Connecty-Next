@@ -104,7 +104,9 @@ const GetStarted = (props) => {
           }
           .get-started-container3 {
             display: flex;
+            align-self: center;
             margin-right: var(--dl-space-space-threeunits);
+            margin-bottom: 6vh;
             padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
@@ -209,6 +211,7 @@ const GetStarted = (props) => {
               padding-bottom: var(--dl-space-space-twounits);
             }
             .get-started-container3 {
+              margin-top: 4vh;
               margin-bottom: var(--dl-space-space-unit);
             }
             .get-started-btn-group {

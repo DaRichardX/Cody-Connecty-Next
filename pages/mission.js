@@ -101,6 +101,7 @@ const Mission = (props) => {
             display: flex;
             padding: var(--dl-space-space-threeunits);
             max-width: var(--dl-size-size-maxwidth);
+            align-self: center;
             margin-top: 6%;
             min-height: auto;
             transition: 0.3s;

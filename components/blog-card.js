@@ -119,6 +119,10 @@ const BlogCard = (props) => {
             align-self: flex-start;
           }
 
+          .blog-card-root-class-name5 {
+            flex: 1;
+            align-self: flex-start;
+          }
           @media (max-width: 1200px) {
             .blog-card-container1 {
               height: 25vw;

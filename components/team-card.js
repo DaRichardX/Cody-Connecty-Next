@@ -24,6 +24,7 @@ const TeamCard = (props) => {
             justify-content: center;
           }
           .team-card-image {
+            flex: 1;
             width: 100%;
             height: 100%;
             object-fit: cover;
@@ -37,6 +38,10 @@ const TeamCard = (props) => {
           .team-card-text1 {
             color: var(--dl-color-gray-500);
             align-self: flex-start;
+          }
+
+          .team-card-root-class-name2 {
+            height: 100%;
           }
 
           @media (max-width: 767px) {

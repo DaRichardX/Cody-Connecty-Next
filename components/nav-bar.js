@@ -1,12 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 
 import PropTypes from 'prop-types'
 
 const NavBar = (props) => {
+  const [isVisible, setIsVisible] = useState(0)
   return (
     <>
-      <div className={`nav-bar-container ${props.rootClassName} `}>
+      <div id="navbar" className={`nav-bar-container ${props.rootClassName} `}>
         <header data-thq="thq-navbar" className="nav-bar-navbar-interactive">
           <Link href="/">
             <a className="nav-bar-link">
@@ -648,17 +649,18 @@ const NavBar = (props) => {
             align-items: center;
             flex-direction: column;
             justify-content: center;
-            background-color: #fff8ea;
+            background-color: transparent;
           }
           .nav-bar-navbar-interactive {
             width: 100%;
             display: flex;
             position: fixed;
             align-self: center;
-            margin-top: 1%;
+            margin-top: 1vh;
             align-items: center;
             padding-top: var(--dl-space-space-halfunit);
             padding-left: var(--dl-space-space-twounits);
+            margin-bottom: 1vh;
             padding-right: var(--dl-space-space-twounits);
             padding-bottom: var(--dl-space-space-halfunit);
             justify-content: space-between;
@@ -1447,6 +1449,7 @@ const NavBar = (props) => {
           }
           .nav-bar-link11 {
             text-decoration: none;
+            background-color: transparent;
           }
           .nav-bar-burger-menu {
             display: none;
@@ -2019,7 +2022,7 @@ const NavBar = (props) => {
           }
           .nav-bar-root-class-name {
             max-width: 100%;
-            background-color: #ffffff;
+            background-color: transparent;
           }
 
           .nav-bar-root-class-name2 {
@@ -2032,7 +2035,7 @@ const NavBar = (props) => {
             background-color: transparent;
           }
           .nav-bar-root-class-name5 {
-            background-color: #ffffff;
+            background-color: transparent;
           }
           .nav-bar-root-class-name6 {
             background-color: #ffffff;
@@ -2054,6 +2057,10 @@ const NavBar = (props) => {
             background-color: #ffffff;
           }
 
+          .nav-bar-root-class-name13 {
+            max-width: 100%;
+            background-color: #ffffff;
+          }
           @media (max-width: 1200px) {
             .nav-bar-navbar-interactive {
               padding-top: var(--dl-space-space-halfunit);
@@ -2085,6 +2092,10 @@ const NavBar = (props) => {
               height: 4.5rem;
             }
             .nav-bar-root-class-name {
+              top: 0px;
+              left: 0px;
+            }
+            .nav-bar-root-class-name13 {
               top: 0px;
               left: 0px;
             }

@@ -24,6 +24,13 @@ const Team = (props) => {
             rootClassName="rootClassName"
           ></TeamCard>
           <TeamCard
+            title="Tom Qin"
+            subtitle="Vice-President"
+            image_alt="Richard Xie"
+            image_src="/423148-1500h.jpg"
+            rootClassName="rootClassName3"
+          ></TeamCard>
+          <TeamCard
             title="Claire Hua"
             subtitle="Vice-President"
             image_alt="Claire Hua"
@@ -63,6 +70,7 @@ const Team = (props) => {
             max-width: var(--dl-size-size-maxwidth);
             margin-top: 4%;
             margin-bottom: 4%;
+            grid-auto-rows: 1fr;
             grid-template-columns: 1fr 1fr 1fr;
           }
           @media (max-width: 991px) {
